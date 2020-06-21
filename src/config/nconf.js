@@ -17,11 +17,11 @@ const defaults = {
       path: '/'
     },
     components: {
-      alpha: './server/common/components/alpha/components',
-      omega: './server/common/components/omega/components',
-      embark: './server/common/components/embark/components',
-      debark: './server/common/components/debark/components',
-      confirm: './server/common/components/confirm/components'
+      alpha: './components/alpha',
+      omega: './components/omega',
+      embark: './components/embark',
+      debark: './components/debark',
+      confirm: './components/confirm'
     }
   },
   karakuri: {
