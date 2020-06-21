@@ -24,22 +24,204 @@ const defaults = {
       confirm: './server/common/components/confirm/components'
     }
   },
-  server: {
-    ui: {
-      host: 'localhost',
-      port: 5001
-    },
-    route: {
-      index: '/',
-      alpha: '/{alpha}',
-      omega: '/{alpha}/{omega}'
+  karakuri: {
+    baseurl: 'http://localhost:5003/api/v1',
+    headers: {
+      Accept: 'application/hal+json'
     }
   },
-  mongo: {
-    ui: {
-      uri: 'mongodb://localhost:27017/zashiki-transport',
-      options: {}
+  catbox: {
+    cache: {
+      client: {
+        uri: 'mongodb://localhost:27017',
+        partition: 'zashiki-mechanism'
+      },
+      policy: {
+        expiresIn: 500000,
+        staleIn: 400000,
+        staleTimeout: 4500,
+        generateTimeout: 5000
+      }
+    },
+    caches: {
+      io: {
+        proposition: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        propositions: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        statement: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        statements: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        decision: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        }
+      },
+      stages: {
+        alpha: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        embark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        debark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        omega: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        }
+      }
+    },
+    maps: {
+      io: {
+        propositions: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        statements: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        }
+      },
+      stages: {
+        alpha: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        embark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        confirm: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        debark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        omega: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        }
+      }
     }
+  },
+  mongoose: {
+    schema: {
+      decision: {
+        expires: 2419200
+      },
+      route: {
+        expires: 2419200
+      },
+      'route-list': {
+        expires: 2419200
+      },
+      state: {
+        expires: 2419200
+      },
+      'state-list': {
+        expires: 2419200
+      },
+      'error-list': {
+        expires: 2419200
+      }
+    }
+  },
+  server: {
+    host: 'localhost',
+    port: 5000,
+    cors: {
+      credentials: true,
+      origin: []
+    }
+  },
+  route: {
+    index: '/',
+    alpha: '/{alpha}',
+    omega: '/{alpha}/{omega}'
+  },
+  mongo: {
+    uri: 'mongodb://localhost:27017/zashiki-transport',
+    options: {}
   }
 }
 
@@ -49,17 +231,23 @@ const required = [
   'zashiki:components',
   'karakuri:baseurl',
   'karakuri:headers',
-  'server:ui:host',
-  'server:ui:port',
-  'server:route:index',
-  'server:route:alpha',
-  'server:route:omega',
-  'mongo:ui:uri',
-  'mongo:ui:options',
+  'server:host',
+  'server:port',
+  'route:index',
+  'route:alpha',
+  'route:omega',
+  'mongo:uri',
+  'mongo:options',
   'catbox:cache:client',
   'catbox:cache:policy',
   'catbox:caches',
-  'catbox:maps'
+  'catbox:maps',
+  'mongoose:schema:decision',
+  'mongoose:schema:route',
+  'mongoose:schema:route-list',
+  'mongoose:schema:state',
+  'mongoose:schema:state-list',
+  'mongoose:schema:error-list'
 ]
 
 export {
