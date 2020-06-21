@@ -1,3 +1,5 @@
+import debug from 'debug'
+
 import Boom from '@hapi/boom'
 import Joi from '@hapi/joi'
 
@@ -8,11 +10,17 @@ import {
 import hasAlpha from 'zashiki/common/definition/alpha/has-definition'
 import hasOmega from 'zashiki/common/definition/omega/has-definition'
 
+const log = debug('zashiki:common:validate:params:omega')
+
+log('`omega` is awake')
+
 export const pattern = /^[a-zA-Z0-9-]+$/
 export const alpha = Joi.string().pattern(pattern).required()
 export const omega = Joi.string().pattern(pattern).required()
 
 export async function hasDefintion (params) {
+  log('hasDefintion')
+
   if (
     await hasAlpha(params) &&
     await hasOmega(params)) {

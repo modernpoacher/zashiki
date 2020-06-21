@@ -25,6 +25,8 @@ const log = debug('zashiki:common:rid:alpha:get-rid')
 log('`getRID` is awake')
 
 export default async function getRID ({ pre: { jid } = {}, state = {}, params = {} }) {
+  log('getRID')
+
   const {
     aid
   } = await getAlphaFromCache(await mapAlphaStage(params))

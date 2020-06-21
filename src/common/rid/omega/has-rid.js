@@ -7,6 +7,8 @@ const log = debug('zashiki:common:rid:omega:has-rid')
 log('`hasRID` is awake')
 
 export default async function hasRID (params) {
+  log('hasRID')
+
   try {
     return !!(
       await getRID(params)

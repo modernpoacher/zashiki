@@ -214,14 +214,14 @@ const defaults = {
       origin: []
     }
   },
+  mongo: {
+    uri: 'mongodb://localhost:27017/zashiki-transport',
+    options: {}
+  },
   route: {
     index: '/',
     alpha: '/{alpha}',
     omega: '/{alpha}/{omega}'
-  },
-  mongo: {
-    uri: 'mongodb://localhost:27017/zashiki-transport',
-    options: {}
   }
 }
 
@@ -233,11 +233,11 @@ const required = [
   'karakuri:headers',
   'server:host',
   'server:port',
+  'mongo:uri',
+  'mongo:options',
   'route:index',
   'route:alpha',
   'route:omega',
-  'mongo:uri',
-  'mongo:options',
   'catbox:cache:client',
   'catbox:cache:policy',
   'catbox:caches',
