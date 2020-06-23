@@ -8,11 +8,12 @@
     "url": "git@github.com/modernpoacher/zashiki.git"
   },
   "scripts": {
-    "prepublishOnly": "npm run lint:fix && npm run babel",
+    "prepare": "cross-env NODE_ENV=production npm run build",
+    "install": "npm run prepare",
     "prebuild": "npm run clean",
     "start": "cross-env NODE_ENV=production DEBUG=zashiki:*,zashiki-* node app",
     "dev": "cross-env NODE_ENV=development DEBUG=zashiki:*,zashiki-* node app",
-    "build": "cross-env NODE_ENV=production npm run babel",
+    "build": "cross-env NODE_ENV=development npm run babel",
     "build:watch": "cross-env NODE_ENV=development npm run babel:watch",
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
@@ -29,7 +30,6 @@
     "@hapi/boom": "^9.1.0",
     "@modernpoacher/zashiki-transport": "1.0.48",
     "concurrently": "^5.2.0",
-    "cross-env": "^7.0.2",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "nconf": "^0.10.0",
@@ -48,6 +48,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "core-js": "^3.6.5",
+    "cross-env": "^7.0.2",
     "eslint": "^7.3.1",
     "eslint-config-standard": "^14.1.1",
     "eslint-import-resolver-babel-module": "^5.1.2",
@@ -55,7 +56,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^4.2.5"
+    "husky": "^4.2.5",
+    "rimraf": "^3.0.2"
   },
   "husky": {
     "hooks": {
