@@ -8,11 +8,10 @@
     "url": "git@github.com/modernpoacher/zashiki.git"
   },
   "scripts": {
-    "prepare": "cross-env NODE_ENV=production npm run build",
-    "install": "npm run prepare",
+    "prepublishOnly": "cross-env NODE_ENV=production npm run build",
     "prebuild": "npm run clean",
-    "start": "cross-env NODE_ENV=production DEBUG=zashiki:*,zashiki-* node app",
-    "dev": "cross-env NODE_ENV=development DEBUG=zashiki:*,zashiki-* node app",
+    "start": "cross-env NODE_ENV=production npm run build",
+    "dev": "cross-env NODE_ENV=development npm run build",
     "build": "cross-env NODE_ENV=development npm run babel",
     "build:watch": "cross-env NODE_ENV=development npm run babel:watch",
     "clean": "rimraf lib",
@@ -25,6 +24,9 @@
   },
   "author": "Jonathan Perry for Modern Poacher Limited",
   "license": "UNLICENSED",
+  "engines": {
+    "node": ">=12.18.1"
+  },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
     "@hapi/boom": "^9.1.0",
