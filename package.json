@@ -3,6 +3,11 @@
   "version": "1.0.7",
   "description": "Zashiki",
   "main": "./index.js",
+  "author": "Jonathan Perry for Modern Poacher Limited <modernpoacher@modernpoacher.com>",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=12.18.1"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com/modernpoacher/zashiki.git"
@@ -21,11 +26,6 @@
     "lint:fix": "npm run lint -- --fix",
     "gulp": "gulp --color",
     "pre-commit": "npm run lint && npm run build && git add lib"
-  },
-  "author": "Jonathan Perry for Modern Poacher Limited",
-  "license": "UNLICENSED",
-  "engines": {
-    "node": ">=12.18.1"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
