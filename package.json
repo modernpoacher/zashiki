@@ -18,7 +18,7 @@
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
     "babel:watch": "npm run babel -- -w",
-    "lint": "eslint *.js src",
+    "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "gulp": "gulp --color",
     "pre-commit": "npm run lint && npm run build && git add lib"
