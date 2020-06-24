@@ -4,12 +4,9 @@ const log = debug('zashiki')
 
 const {
   env: {
-    DEBUG = 'zashiki',
     NODE_ENV = 'development'
   }
 } = process
-
-debug.enable(DEBUG)
 
 log('`zashiki` is awake')
 
