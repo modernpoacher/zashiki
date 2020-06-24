@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/zashiki",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Zashiki",
   "main": "./index.js",
   "repository": {
