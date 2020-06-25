@@ -1,4 +1,4 @@
-## zashiki
+## @modernpoacher/zashiki
 
 # Zashiki
 
