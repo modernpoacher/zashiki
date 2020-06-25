@@ -231,13 +231,6 @@ const required = [
   'zashiki:components',
   'karakuri:baseurl',
   'karakuri:headers',
-  'server:host',
-  'server:port',
-  'mongo:uri',
-  'mongo:options',
-  'route:index',
-  'route:alpha',
-  'route:omega',
   'catbox:cache:client',
   'catbox:cache:policy',
   'catbox:caches',
@@ -247,7 +240,14 @@ const required = [
   'mongoose:schema:route-list',
   'mongoose:schema:state',
   'mongoose:schema:state-list',
-  'mongoose:schema:error-list'
+  'mongoose:schema:error-list',
+  'server:host',
+  'server:port',
+  'mongo:uri',
+  'mongo:options',
+  'route:index',
+  'route:alpha',
+  'route:omega'
 ]
 
 export {
