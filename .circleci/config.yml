@@ -34,7 +34,7 @@ jobs:
             VERSION=$(node -p "require('./package').version")
             PUBLISHED_VERSION=$(npm view $NAME version)
 
-            if [ "$VERSION" != "$PUBLISHED_VERSION" ]
+            if [[ "$VERSION" > "$PUBLISHED_VERSION" ]]
             then
               npm ci
               npm publish
