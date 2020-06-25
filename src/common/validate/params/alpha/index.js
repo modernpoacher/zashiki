@@ -16,7 +16,7 @@ log('`alpha` is awake')
 export const pattern = /^[a-zA-Z0-9-]+$/
 export const alpha = Joi.string().pattern(pattern).required()
 
-async function hasDefinition (params) {
+export async function hasDefinition (params) {
   log('hasDefinition')
 
   if (await hasAlpha(params)) return params

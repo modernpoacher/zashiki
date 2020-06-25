@@ -24,8 +24,9 @@
     "babel:watch": "npm run babel -- -w",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
+    "test": "NODE_ENV=test mocha test --recursive -r @babel/register --verbose",
     "gulp": "gulp --color",
-    "pre-commit": "npm run lint && npm run build && git add lib"
+    "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
     "@babel/runtime": "^7.10.3",
@@ -49,6 +50,7 @@
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
+    "chai": "^4.2.0",
     "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
     "eslint": "^7.3.1",
@@ -59,6 +61,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
+    "mocha": "^8.0.1",
     "rimraf": "^3.0.2"
   },
   "husky": {

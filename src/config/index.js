@@ -1,4 +1,3 @@
-import debug from 'debug'
 import dotenv from 'dotenv'
 import nconf from 'nconf'
 
@@ -6,14 +5,6 @@ import {
   defaults,
   required
 } from './nconf'
-
-const {
-  env: {
-    DEBUG = 'zashiki:*'
-  }
-} = process
-
-debug.enable(DEBUG)
 
 dotenv
   .config({ path: 'config.env' }) // process.cwd()

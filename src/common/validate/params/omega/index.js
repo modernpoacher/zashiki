@@ -18,8 +18,8 @@ export const pattern = /^[a-zA-Z0-9-]+$/
 export const alpha = Joi.string().pattern(pattern).required()
 export const omega = Joi.string().pattern(pattern).required()
 
-export async function hasDefintion (params) {
-  log('hasDefintion')
+export async function hasDefinition (params) {
+  log('hasDefinition')
 
   if (
     await hasAlpha(params) &&
@@ -33,5 +33,5 @@ export async function hasDefintion (params) {
 export default (
   Joi
     .object({ alpha, omega })
-    .external(hasDefintion)
+    .external(hasDefinition)
 )
