@@ -10,3 +10,7 @@
 # NPM
 .npmignore
 .npmrc
+
+# Config
+config.env
+config.json

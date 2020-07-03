@@ -45,7 +45,7 @@ const defaults = {
     },
     caches: {
       io: {
-        proposition: {
+        member: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -53,7 +53,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        propositions: {
+        members: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -61,7 +61,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        statement: {
+        collection: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -69,7 +69,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        statements: {
+        collections: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -77,7 +77,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        decision: {
+        evaluation: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -87,14 +87,6 @@ const defaults = {
         }
       },
       stages: {
-        alpha: {
-          policy: {
-            expiresIn: 500000,
-            staleIn: 400000,
-            staleTimeout: 4500,
-            generateTimeout: 5000
-          }
-        },
         embark: {
           policy: {
             expiresIn: 500000,
@@ -103,7 +95,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        debark: {
+        alpha: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -118,12 +110,20 @@ const defaults = {
             staleTimeout: 4500,
             generateTimeout: 5000
           }
+        },
+        debark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
         }
       }
     },
     maps: {
       io: {
-        propositions: {
+        members: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -131,7 +131,7 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        statements: {
+        collections: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -141,6 +141,14 @@ const defaults = {
         }
       },
       stages: {
+        embark: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
         alpha: {
           policy: {
             expiresIn: 500000,
@@ -149,7 +157,15 @@ const defaults = {
             generateTimeout: 5000
           }
         },
-        embark: {
+        omega: {
+          policy: {
+            expiresIn: 500000,
+            staleIn: 400000,
+            staleTimeout: 4500,
+            generateTimeout: 5000
+          }
+        },
+        debark: {
           policy: {
             expiresIn: 500000,
             staleIn: 400000,
@@ -164,29 +180,13 @@ const defaults = {
             staleTimeout: 4500,
             generateTimeout: 5000
           }
-        },
-        debark: {
-          policy: {
-            expiresIn: 500000,
-            staleIn: 400000,
-            staleTimeout: 4500,
-            generateTimeout: 5000
-          }
-        },
-        omega: {
-          policy: {
-            expiresIn: 500000,
-            staleIn: 400000,
-            staleTimeout: 4500,
-            generateTimeout: 5000
-          }
         }
       }
     }
   },
   mongoose: {
     schema: {
-      decision: {
+      evaluation: {
         expires: 2419200
       },
       route: {
@@ -233,9 +233,19 @@ const required = [
   'karakuri:headers',
   'catbox:cache:client',
   'catbox:cache:policy',
-  'catbox:caches',
-  'catbox:maps',
-  'mongoose:schema:decision',
+  'catbox:caches:io:member',
+  'catbox:caches:io:members',
+  'catbox:caches:io:collection',
+  'catbox:caches:io:collections',
+  'catbox:caches:stages:embark',
+  'catbox:caches:stages:alpha',
+  'catbox:caches:stages:omega',
+  'catbox:caches:stages:debark',
+  'catbox:maps:io:members',
+  'catbox:maps:io:collections',
+  'catbox:maps:stages:embark',
+  'catbox:maps:stages:debark',
+  'mongoose:schema:evaluation',
   'mongoose:schema:route',
   'mongoose:schema:route-list',
   'mongoose:schema:state',

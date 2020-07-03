@@ -54,8 +54,9 @@ export async function post ({ pre: { jid, rid, response = {} } }) {
 
     await change({ jid, rid, resource: EMBARK_RESOURCE })
 
-    const { response: { statement } } = await store({ jid, rid, response })
-    const route = await embark({ jid, rid, response: { embark: Rails.rail(statement) } })
+    const { response: { collection } } = await store({ jid, rid, response })
+
+    const route = await embark({ jid, rid, response: { embark: Rails.rail(collection) } })
 
     return getRedirectResourceUrl(route)
   } catch (e) {
