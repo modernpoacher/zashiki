@@ -12,5 +12,11 @@
 .npmrc
 
 # Config
+config
+!src/**/config
+!lib/**/config
 config.env
 config.json
+
+# Mocha
+test
