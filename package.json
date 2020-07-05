@@ -31,7 +31,7 @@
   "dependencies": {
     "@babel/runtime": "^7.10.4",
     "@hapi/boom": "^9.1.0",
-    "@modernpoacher/zashiki-transport": "2.0.2",
+    "@modernpoacher/zashiki-transport": "2.0.4",
     "concurrently": "^5.2.0",
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
