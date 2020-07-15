@@ -29,7 +29,7 @@
     "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
-    "@babel/runtime": "^7.10.4",
+    "@babel/runtime": "^7.10.5",
     "@hapi/boom": "^9.1.0",
     "@modernpoacher/zashiki-transport": "2.0.4",
     "concurrently": "^5.2.0",
@@ -41,12 +41,12 @@
     "shinkansen-transmission": "2.1.12"
   },
   "devDependencies": {
-    "@babel/cli": "^7.10.4",
-    "@babel/core": "^7.10.4",
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.10.5",
     "@babel/plugin-proposal-export-default-from": "^7.10.4",
-    "@babel/plugin-transform-runtime": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.10.5",
     "@babel/preset-env": "^7.10.4",
-    "@babel/register": "^7.10.4",
+    "@babel/register": "^7.10.5",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
