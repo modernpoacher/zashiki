@@ -2,7 +2,7 @@ export default {
   zashiki: {
     jid: {
       ttl: 2419200000,
-      isSecure: false,
+      isSecure: true,
       isHttpOnly: true,
       clearInvalid: true,
       strictHeader: true,
@@ -10,7 +10,7 @@ export default {
     },
     rid: {
       ttl: 2419200000,
-      isSecure: false,
+      isSecure: true,
       isHttpOnly: true,
       clearInvalid: true,
       strictHeader: true,
