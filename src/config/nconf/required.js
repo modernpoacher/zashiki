@@ -2,7 +2,7 @@ export default [
   'zashiki:jid',
   'zashiki:rid',
   'zashiki:components',
-  'karakuri:baseurl',
+  'karakuri:baseUrl',
   'karakuri:headers',
   'karakuri:authorisation',
   'catbox:cache:client',

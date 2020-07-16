@@ -25,7 +25,7 @@ export default {
     }
   },
   karakuri: {
-    baseurl: 'http://localhost:5003/api/v1',
+    baseUrl: 'https://localhost:5003/api/v1',
     headers: {
       Accept: 'application/hal+json'
     },

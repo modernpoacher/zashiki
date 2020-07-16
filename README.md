@@ -33,7 +33,7 @@ All parameters can be provided as command line arguments.
 ```json
 {
   "karakuri": {
-    "baseurl": "http://localhost:5003/api/v1"
+    "baseUrl": "http://localhost:5003/api/v1"
   }
 }
 ```
@@ -84,5 +84,5 @@ npm start
 Or:
 
 ```bash
-npm start -- --server:host localhost --server:port 5001 --mongo:uri mongodb://localhost:27017/zashiki-transport --karakuri:baseurl http://localhost:5003/api/v1 --catbox:cache:client:uri mongodb://localhost:27017
+npm start -- --server:host localhost --server:port 5001 --mongo:uri mongodb://localhost:27017/zashiki-transport --karakuri:baseUrl http://localhost:5003/api/v1 --catbox:cache:client:uri mongodb://localhost:27017
 ```
