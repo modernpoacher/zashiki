@@ -193,16 +193,16 @@ export default {
       route: {
         expires: 2419200
       },
-      'route-list': {
+      routeList: {
         expires: 2419200
       },
       state: {
         expires: 2419200
       },
-      'state-list': {
+      stateList: {
         expires: 2419200
       },
-      'error-list': {
+      errorList: {
         expires: 2419200
       }
     }
