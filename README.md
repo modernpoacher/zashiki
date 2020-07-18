@@ -1,4 +1,4 @@
-## @modernpoacher/zashiki
+## `@modernpoacher/zashiki`
 
 # Zashiki
 
