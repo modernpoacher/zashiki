@@ -186,24 +186,21 @@ export default {
     }
   },
   mongoose: {
-    schema: {
-      evaluation: {
-        expires: 2419200
-      },
-      route: {
-        expires: 2419200
-      },
-      routeList: {
-        expires: 2419200
-      },
-      state: {
-        expires: 2419200
-      },
-      stateList: {
-        expires: 2419200
-      },
-      errorList: {
-        expires: 2419200
+    stores: {
+      schemas: {
+        common: {
+          now: {
+            expires: 2419200
+          },
+          stages: {
+            alpha: {
+              expires: 2419200
+            },
+            omega: {
+              expires: 2419200
+            }
+          }
+        }
       }
     }
   },
