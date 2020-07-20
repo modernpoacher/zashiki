@@ -5,7 +5,7 @@ import getDescription from 'zashiki/common/description/embark/get-description'
  */
 export default {
   assign: 'description',
-  method ({ pre: { jid } }) {
-    return getDescription({ jid })
+  method ({ pre: { zid } }) {
+    return getDescription({ zid })
   }
 }

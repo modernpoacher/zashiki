@@ -1,5 +1,5 @@
 export default [
-  'zashiki:jid',
+  'zashiki:zid',
   'zashiki:rid',
   'zashiki:components',
   'karakuri:baseUrl',

@@ -14,7 +14,7 @@ import {
   change
 } from '@modernpoacher/zashiki-transport/lib/stages'
 
-import jid from 'zashiki/common/pre/jid'
+import zid from 'zashiki/common/pre/zid'
 import rid from 'zashiki/common/pre/rid'
 import {
   handleException
@@ -32,26 +32,26 @@ export {
   change
 } from '@modernpoacher/zashiki-transport/lib/stages'
 
-export async function get ({ pre: { jid, rid } }) {
+export async function get ({ pre: { zid, rid } }) {
   try {
-    log({ jid, rid })
+    log({ zid, rid })
 
-    await change({ jid, rid, resource: DEBARK_RESOURCE })
+    await change({ zid, rid, resource: DEBARK_RESOURCE })
 
-    return fetch({ jid, rid })
+    return fetch({ zid, rid })
   } catch (e) {
     handleException(e)
   }
 }
 
-export async function post ({ pre: { jid, rid, response = {} } }) {
+export async function post ({ pre: { zid, rid, response = {} } }) {
   try {
-    log({ jid, rid })
+    log({ zid, rid })
 
-    await change({ jid, rid, resource: DEBARK_RESOURCE })
+    await change({ zid, rid, resource: DEBARK_RESOURCE })
 
-    await store({ jid, rid, response })
-    const route = await debark({ jid, rid, response })
+    await store({ zid, rid, response })
+    const route = await debark({ zid, rid, response })
 
     return getRedirectResourceUrl(route)
   } catch (e) {
@@ -60,7 +60,7 @@ export async function post ({ pre: { jid, rid, response = {} } }) {
 }
 
 export const pre = [
-  jid,
+  zid,
   rid
 ]
 

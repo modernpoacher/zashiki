@@ -5,7 +5,7 @@ import getComponents from 'zashiki/common/components/debark/get-components'
  */
 export default {
   assign: 'components',
-  method ({ pre: { jid } }) {
-    return getComponents({ jid })
+  method ({ pre: { zid } }) {
+    return getComponents({ zid })
   }
 }

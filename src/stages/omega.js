@@ -7,7 +7,7 @@ import {
   change
 } from '@modernpoacher/zashiki-transport/lib/stages'
 
-import jid from 'zashiki/common/pre/jid'
+import zid from 'zashiki/common/pre/zid'
 import rid from 'zashiki/common/pre/rid'
 import {
   handleException
@@ -23,26 +23,26 @@ log('`omega` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/stages'
 
-export async function get ({ pre: { jid, rid }, params: resource = {} }) {
+export async function get ({ pre: { zid, rid }, params: resource = {} }) {
   try {
-    log({ jid, rid, resource })
+    log({ zid, rid, resource })
 
-    await change({ jid, rid, resource })
+    await change({ zid, rid, resource })
 
-    return fetch({ jid, rid, resource })
+    return fetch({ zid, rid, resource })
   } catch (e) {
     handleException(e)
   }
 }
 
-export async function post ({ pre: { jid, rid, response = {} }, params: resource = {} }) {
+export async function post ({ pre: { zid, rid, response = {} }, params: resource = {} }) {
   try {
-    log({ jid, rid, resource })
+    log({ zid, rid, resource })
 
-    await change({ jid, rid, resource })
+    await change({ zid, rid, resource })
 
-    await store({ jid, rid, response, resource })
-    const route = await query({ jid, rid })
+    await store({ zid, rid, response, resource })
+    const route = await query({ zid, rid })
 
     return getRedirectResourceUrl(route)
   } catch (e) {
@@ -51,7 +51,7 @@ export async function post ({ pre: { jid, rid, response = {} }, params: resource
 }
 
 export const pre = [
-  jid,
+  zid,
   rid
 ]
 

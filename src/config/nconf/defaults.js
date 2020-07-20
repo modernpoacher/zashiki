@@ -1,6 +1,6 @@
 export default {
   zashiki: {
-    jid: {
+    zid: {
       ttl: 2419200000,
       isSecure: true,
       isHttpOnly: true,

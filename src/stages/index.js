@@ -10,7 +10,7 @@ import {
   handleException
 } from 'zashiki/common/exception'
 
-import jid from 'zashiki/common/pre/jid'
+import zid from 'zashiki/common/pre/zid'
 import rid from 'zashiki/common/pre/rid'
 
 const log = debug('zashiki:stages')
@@ -19,32 +19,32 @@ log('`stages` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/stages'
 
-export async function get ({ pre: { jid }, params: resource = {} }) {
+export async function get ({ pre: { zid }, params: resource = {} }) {
   try {
-    log({ jid, resource })
+    log({ zid, resource })
 
-    await change({ jid, resource })
+    await change({ zid, resource })
 
-    return fetch({ jid, resource })
+    return fetch({ zid, resource })
   } catch (e) {
     handleException(e)
   }
 }
 
-export async function post ({ pre: { jid, response }, params: resource = {} }) {
+export async function post ({ pre: { zid, response }, params: resource = {} }) {
   try {
-    log({ jid, resource })
+    log({ zid, resource })
 
-    await change({ jid, resource })
+    await change({ zid, resource })
 
-    return store({ jid, resource, response })
+    return store({ zid, resource, response })
   } catch (e) {
     handleException(e)
   }
 }
 
 export const pre = [
-  jid,
+  zid,
   rid
 ]
 

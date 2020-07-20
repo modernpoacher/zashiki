@@ -24,7 +24,7 @@ const log = debug('zashiki:common:rid:omega:get-rid')
 
 log('`getRID` is awake')
 
-export default async function getRID ({ pre: { jid } = {}, state = {}, params = {} }) {
+export default async function getRID ({ pre: { zid } = {}, state = {}, params = {} }) {
   log('getRID')
 
   const {
@@ -32,7 +32,7 @@ export default async function getRID ({ pre: { jid } = {}, state = {}, params = 
     oid
   } = await getOmegaFromCache(await mapAlphaOmega(params))
 
-  const routeList = routeListMaster.use(jid)
+  const routeList = routeListMaster.use(zid)
   const resource = {
     alpha: aid,
     omega: oid
