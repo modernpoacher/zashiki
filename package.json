@@ -36,7 +36,7 @@
     "debug": "^4.1.1",
     "dotenv": "^8.2.0",
     "nconf": "^0.10.0",
-    "shinkansen-rails": "1.0.14",
+    "shinkansen-rails": "1.0.15",
     "shinkansen-signals": "1.0.14",
     "shinkansen-transmission": "2.1.13"
   },
