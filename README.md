@@ -58,11 +58,11 @@ All parameters can be provided as command line arguments.
 All parameters can be provided as command line arguments.
 
 ```bash
-API_PROTOCOL = 'http'
-API_HOST = 'localhost'
-API_PORT = '5002'
-API_PATH = 'api'
-API_VERSION = 'v1'
+API_PROTOCOL='http'
+API_HOST='localhost'
+API_PORT='5002'
+API_PATH='api'
+API_VERSION='v1'
 ```
 
 ## Build
