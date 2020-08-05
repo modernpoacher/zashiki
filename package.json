@@ -29,7 +29,7 @@
     "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
-    "@babel/runtime": "^7.11.0",
+    "@babel/runtime": "^7.11.1",
     "@hapi/boom": "^9.1.0",
     "@modernpoacher/zashiki-transport": "2.0.9",
     "concurrently": "^5.2.0",
@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/plugin-proposal-export-default-from": "^7.10.4",
     "@babel/plugin-transform-runtime": "^7.11.0",
     "@babel/preset-env": "^7.11.0",
@@ -61,7 +61,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.2.5",
-    "mocha": "^8.1.0",
+    "mocha": "^8.1.1",
     "rimraf": "^3.0.2"
   },
   "husky": {
