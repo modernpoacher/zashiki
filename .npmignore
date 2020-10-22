@@ -17,6 +17,10 @@ config
 !lib/**/config
 config.env
 config.json
+*.code-workspace
 
 # Mocha
 test
+
+# Deps
+.depsrc

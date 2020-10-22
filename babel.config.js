@@ -31,8 +31,8 @@ const presets = [
 ]
 
 const plugins = [
-  '@babel/proposal-export-default-from',
   '@babel/transform-runtime',
+  '@babel/proposal-export-default-from',
   [
     'module-resolver', {
       root: ['./src'],
