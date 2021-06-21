@@ -35,7 +35,7 @@
     "concurrently": "^6.2.0",
     "debug": "^4.3.1",
     "dotenv": "^10.0.0",
-    "nconf": "^0.11.2",
+    "nconf": "^0.11.3",
     "shinkansen-rails": "1.0.17",
     "shinkansen-signals": "1.1.1",
     "shinkansen-transmission": "2.1.16"
@@ -51,7 +51,7 @@
     "babel-loader": "^8.2.2",
     "babel-plugin-module-resolver": "^4.1.0",
     "chai": "^4.3.4",
-    "core-js": "^3.14.0",
+    "core-js": "^3.15.0",
     "cross-env": "^7.0.3",
     "eslint": "^7.29.0",
     "eslint-import-resolver-babel-module": "^5.3.1",
