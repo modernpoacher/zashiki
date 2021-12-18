@@ -32,7 +32,7 @@
     "@hapi/boom": "^9.1.4",
     "@hapi/joi": "^17.1.1",
     "@modernpoacher/zashiki-transport": "2.0.14",
-    "concurrently": "^6.4.0",
+    "concurrently": "^6.5.0",
     "debug": "^4.3.3",
     "dotenv": "^10.0.0",
     "nconf": "^0.11.3",
