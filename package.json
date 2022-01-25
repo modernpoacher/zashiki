@@ -34,7 +34,7 @@
     "@modernpoacher/zashiki-transport": "2.0.14",
     "concurrently": "^7.0.0",
     "debug": "^4.3.3",
-    "dotenv": "^14.2.0",
+    "dotenv": "^14.3.0",
     "nconf": "^0.11.3",
     "shinkansen-rails": "1.0.18",
     "shinkansen-signals": "1.1.2",
@@ -60,7 +60,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^6.0.0",
     "husky": "^7.0.4",
-    "mocha": "^9.1.4",
+    "mocha": "^9.2.0",
     "rimraf": "^3.0.2"
   }
 }
