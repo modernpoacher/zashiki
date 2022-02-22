@@ -41,7 +41,7 @@
     "shinkansen-transmission": "2.2.2"
   },
   "devDependencies": {
-    "@babel/cli": "7.16.8",
+    "@babel/cli": "7.17.6",
     "@babel/core": "7.16.12",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-proposal-export-default-from": "^7.16.7",
