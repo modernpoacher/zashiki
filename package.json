@@ -33,7 +33,7 @@
     "@hapi/joi": "^17.1.1",
     "@modernpoacher/zashiki-transport": "2.0.14",
     "concurrently": "^7.0.0",
-    "debug": "^4.3.3",
+    "debug": "^4.3.4",
     "dotenv": "^16.0.0",
     "nconf": "^0.11.3",
     "shinkansen-rails": "1.0.18",
