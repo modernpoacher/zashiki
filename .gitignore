@@ -1,22 +1,21 @@
-.DS_Store
-
-**/node_modules/**/*
-**/npm-debug.log
-
+# Node
 node_modules
 
-*.env
+# Mac
+.DS_Store
 
 # User-defined NPM configuration
 .npmrc
+.npmignore
 
 # User-defined NVM configuration
 .nvmrc
 
-# User-defined Deps configuration
+# Deps
 .depsrc
 
 # Config
+*.env
 config
 !src/**/config
 !lib/**/config
