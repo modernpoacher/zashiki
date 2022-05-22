@@ -17,7 +17,7 @@
     "prebuild": "npm run clean",
     "start": "cross-env NODE_ENV=production npm run build",
     "dev": "cross-env NODE_ENV=development npm run build",
-    "build": "cross-env NODE_ENV=development npm run babel",
+    "build": "npm run babel",
     "build:watch": "cross-env NODE_ENV=development npm run babel:watch",
     "clean": "rimraf lib",
     "babel": "babel src -d lib",
