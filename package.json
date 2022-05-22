@@ -24,11 +24,11 @@
     "babel:watch": "npm run babel -- -w",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "test": "NODE_ENV=test mocha test --recursive -r @babel/register --verbose",
+    "test": "cross-env NODE_ENV=test mocha test --recursive -r @babel/register --verbose",
     "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
-    "@babel/runtime": "7.16.7",
+    "@babel/runtime": "^7.18.0",
     "@hapi/boom": "^10.0.0",
     "@hapi/joi": "^17.1.1",
     "@modernpoacher/zashiki-transport": "2.0.14",
