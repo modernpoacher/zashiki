@@ -28,7 +28,7 @@
     "pre-commit": "npm run lint && npm test && npm run build && git add lib"
   },
   "dependencies": {
-    "@babel/runtime": "^7.20.0",
+    "@babel/runtime": "^7.20.1",
     "@hapi/boom": "^10.0.0",
     "@hapi/joi": "^17.1.1",
     "@modernpoacher/zashiki-transport": "2.0.14",
