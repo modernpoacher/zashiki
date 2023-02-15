@@ -1,2 +1,2 @@
-export getRID from './get-rid'
-export hasRID from './has-rid'
+export { default as getRID } from './get-rid'
+export { default as hasRID } from './has-rid'

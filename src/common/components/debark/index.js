@@ -1,2 +1,2 @@
-export getComponents from './get-components'
-export hasComponents from './has-components'
+export { default as getComponents } from './get-components'
+export { default as hasComponents } from './has-components'

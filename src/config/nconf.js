@@ -1,2 +1,2 @@
-export defaults from './nconf/defaults'
-export required from './nconf/required'
+export { default as defaults } from './nconf/defaults'
+export { default as required } from './nconf/required'
