@@ -2,7 +2,7 @@ import {
   handleException
 } from 'zashiki/common/exception'
 
-import transformFromHashToDocument from 'shinkansen-transmission/lib/transmission/from-hash-to-document'
+import transformFromHashToDocument from 'shinkansen-transmission/transmission/from-hash-to-document'
 
 export default {
   assign: 'response',
