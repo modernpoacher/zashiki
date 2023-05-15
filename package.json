@@ -36,9 +36,9 @@
     "debug": "^4.3.4",
     "dotenv": "^16.0.3",
     "nconf": "^0.12.0",
-    "shinkansen-rails": "1.0.44",
-    "shinkansen-signals": "1.1.27",
-    "shinkansen-transmission": "2.2.39"
+    "shinkansen-rails": "1.0.45",
+    "shinkansen-signals": "1.1.28",
+    "shinkansen-transmission": "2.2.40"
   },
   "devDependencies": {
     "@babel/cli": "^7.21.5",
