@@ -22,9 +22,9 @@ import {
 
 import getRedirectResourceUrl from '#common/get-redirect-resource-url'
 
-const log = debug('zashiki:stages:debark')
+const log = debug('zashiki/stages/debark')
 
-log('`debark` is awake')
+log('`zashiki` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/debark.js'
 

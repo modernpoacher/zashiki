@@ -14,9 +14,9 @@ import {
   BAD_DATA
 } from '#common/exception'
 
-const log = debug('zashiki:common:definition:omega:get-definition')
+const log = debug('zashiki/common/definition/omega/get-definition')
 
-log('`getDefinition` is awake')
+log('`zashiki` is awake')
 
 export default async function getDefinition (params = {}) {
   log('getDefinition')

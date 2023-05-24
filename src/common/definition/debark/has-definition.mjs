@@ -2,9 +2,9 @@ import debug from 'debug'
 
 import getDefinition from './get-definition.mjs'
 
-const log = debug('zashiki:common:definition:debark:has-definition')
+const log = debug('zashiki/common/definition/debark/has-definition')
 
-log('`hasDefinition` is awake')
+log('`zashiki` is awake')
 
 export default async function hasDefinition (params) {
   log('hasDefinition')

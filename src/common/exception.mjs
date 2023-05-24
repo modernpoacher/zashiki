@@ -6,7 +6,9 @@ import {
   Signals
 } from 'shinkansen-signals'
 
-const log = debug('zashiki:common:exception')
+const log = debug('zashiki/common/exception')
+
+log('`zashiki` is awake')
 
 const transformException = ({
   code = 500,

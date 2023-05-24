@@ -2,9 +2,9 @@ import debug from 'debug'
 
 import getDescription from './get-description.mjs'
 
-const log = debug('zashiki:common:description:debark:has-description')
+const log = debug('zashiki/common/description/debark/has-description')
 
-log('`hasDescription` is awake')
+log('`zashiki` is awake')
 
 export default async function hasDescription (params) {
   log('hasDescription')

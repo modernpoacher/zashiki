@@ -17,9 +17,9 @@ import getRedirectResourceUrl from '#common/get-redirect-resource-url'
 
 import params from '#common/validate/params/alpha'
 
-const log = debug('zashiki:stages:alpha')
+const log = debug('zashiki/stages/alpha')
 
-log('`alpha` is awake')
+log('`zashiki` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/stages/index.js'
 

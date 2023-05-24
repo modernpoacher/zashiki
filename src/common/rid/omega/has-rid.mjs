@@ -2,9 +2,9 @@ import debug from 'debug'
 
 import getRID from './get-rid.mjs'
 
-const log = debug('zashiki:common:rid:omega:has-rid')
+const log = debug('zashiki/common/rid/omega/has-rid')
 
-log('`hasRID` is awake')
+log('`zashiki` is awake')
 
 export default async function hasRID (params) {
   log('hasRID')

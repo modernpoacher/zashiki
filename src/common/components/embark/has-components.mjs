@@ -2,9 +2,9 @@ import debug from 'debug'
 
 import getComponents from './get-components.mjs'
 
-const log = debug('zashiki:common:components:embark:has-components')
+const log = debug('zashiki/common/components/embark/has-components')
 
-log('`hasComponents` is awake')
+log('`zashiki` is awake')
 
 export default async function hasComponents (params) {
   log('hasComponents')

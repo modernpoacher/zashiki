@@ -14,9 +14,9 @@ import {
   BAD_DATA
 } from '#common/exception'
 
-const log = debug('zashiki:common:description:omega:get-description')
+const log = debug('zashiki/common/description/omega/get-description')
 
-log('`getDescription` is awake')
+log('`zashiki` is awake')
 
 export default async function getDescription (params = {}) {
   log('getDescription')

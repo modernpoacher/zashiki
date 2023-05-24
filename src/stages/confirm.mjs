@@ -19,9 +19,9 @@ import {
   handleException
 } from '#common/exception'
 
-const log = debug('zashiki:stages:confirm')
+const log = debug('zashiki/stages/confirm')
 
-log('`confirm` is awake')
+log('`zashiki` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/confirm.js'
 

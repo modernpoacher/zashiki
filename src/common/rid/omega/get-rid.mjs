@@ -20,9 +20,9 @@ import {
 
 const routeListMaster = new RouteListMaster()
 
-const log = debug('zashiki:common:rid:omega:get-rid')
+const log = debug('zashiki/common/rid/omega/get-rid')
 
-log('`getRID` is awake')
+log('`zashiki` is awake')
 
 export default async function getRID ({ pre: { zid } = {}, state = {}, params = {} }) {
   log('getRID')

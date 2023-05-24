@@ -12,9 +12,9 @@ import {
   BAD_IMPLEMENTATION
 } from '#common/exception'
 
-const log = debug('zashiki:common:components:alpha:get-components')
+const log = debug('zashiki/common/components/alpha/get-components')
 
-log('`getComponents` is awake')
+log('`zashiki` is awake')
 
 const {
   alpha: components

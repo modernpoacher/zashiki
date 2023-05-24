@@ -26,9 +26,9 @@ import {
 
 import getRedirectResourceUrl from '#common/get-redirect-resource-url'
 
-const log = debug('zashiki:stages:embark')
+const log = debug('zashiki/stages/embark')
 
-log('`embark` is awake')
+log('`zashiki` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/embark.js'
 

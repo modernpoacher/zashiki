@@ -13,9 +13,9 @@ import {
 import zid from '#common/pre/zid'
 import rid from '#common/pre/rid'
 
-const log = debug('zashiki:stages')
+const log = debug('zashiki/stages')
 
-log('`stages` is awake')
+log('`zashiki` is awake')
 
 export * from '@modernpoacher/zashiki-transport/lib/stages/index.js'
 

@@ -16,9 +16,9 @@ import {
   BAD_IMPLEMENTATION
 } from '#common/exception'
 
-const log = debug('zashiki:common:components:debark:get-components')
+const log = debug('zashiki/common/components/debark/get-components')
 
-log('`getComponents` is awake')
+log('`zashiki` is awake')
 
 const {
   debark: components
