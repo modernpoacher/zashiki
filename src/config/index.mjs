@@ -15,7 +15,7 @@ nconf
   .defaults(defaults)
   .required(required)
 
-export * from '@modernpoacher/zashiki-transport/lib/config/index.js'
+export * from '@modernpoacher/zashiki-transport/config'
 
 export default {
   get (key) {

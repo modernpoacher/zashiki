@@ -4,7 +4,7 @@ import {
   fetch,
   store,
   change
-} from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+} from '@modernpoacher/zashiki-transport/stages'
 
 import {
   handleException
@@ -17,7 +17,7 @@ const log = debug('zashiki/stages')
 
 log('`zashiki` is awake')
 
-export * from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+export * from '@modernpoacher/zashiki-transport/stages'
 
 export async function get ({ pre: { zid }, params: resource = {} }) {
   try {

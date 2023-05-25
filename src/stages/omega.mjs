@@ -5,7 +5,7 @@ import {
   store,
   query,
   change
-} from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+} from '@modernpoacher/zashiki-transport/stages'
 
 import zid from '#common/pre/zid'
 import rid from '#common/pre/rid'
@@ -21,7 +21,7 @@ const log = debug('zashiki/stages/omega')
 
 log('`zashiki` is awake')
 
-export * from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+export * from '@modernpoacher/zashiki-transport/stages'
 
 export async function get ({ pre: { zid, rid }, params: resource = {} }) {
   try {

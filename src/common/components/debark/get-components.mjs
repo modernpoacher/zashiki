@@ -10,7 +10,7 @@ import zashiki from '#config'
 
 import {
   DEBARK_STAGE
-} from '@modernpoacher/zashiki-transport/lib/config/index.js'
+} from '@modernpoacher/zashiki-transport/config'
 
 import {
   BAD_IMPLEMENTATION

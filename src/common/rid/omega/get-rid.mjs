@@ -4,15 +4,15 @@ import Boom from '@hapi/boom'
 
 import {
   RouteListMaster
-} from '@modernpoacher/zashiki-transport/lib/stores/components/route-list/master/index.js'
+} from '@modernpoacher/zashiki-transport/stores/components/route-list/master'
 
 import {
   mapAlphaOmega
-} from '@modernpoacher/zashiki-transport/lib/maps/index.js'
+} from '@modernpoacher/zashiki-transport/maps'
 
 import {
   getOmegaFromCache
-} from '@modernpoacher/zashiki-transport/lib/caches/index.js'
+} from '@modernpoacher/zashiki-transport/caches'
 
 import {
   NOT_FOUND

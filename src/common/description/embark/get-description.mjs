@@ -4,7 +4,7 @@ import Boom from '@hapi/boom'
 
 import {
   getEmbarkFromCache
-} from '@modernpoacher/zashiki-transport/lib/caches/index.js'
+} from '@modernpoacher/zashiki-transport/caches'
 
 import {
   BAD_DATA

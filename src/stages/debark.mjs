@@ -2,17 +2,17 @@ import debug from 'debug'
 
 import {
   DEBARK_RESOURCE
-} from '@modernpoacher/zashiki-transport/lib/config/index.js'
+} from '@modernpoacher/zashiki-transport/config'
 
 import {
   fetch,
   debark,
   store
-} from '@modernpoacher/zashiki-transport/lib/debark.js'
+} from '@modernpoacher/zashiki-transport/debark'
 
 import {
   change
-} from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+} from '@modernpoacher/zashiki-transport/stages'
 
 import zid from '#common/pre/zid'
 import rid from '#common/pre/rid'
@@ -26,11 +26,11 @@ const log = debug('zashiki/stages/debark')
 
 log('`zashiki` is awake')
 
-export * from '@modernpoacher/zashiki-transport/lib/debark.js'
+export * from '@modernpoacher/zashiki-transport/debark'
 
 export {
   change
-} from '@modernpoacher/zashiki-transport/lib/stages/index.js'
+} from '@modernpoacher/zashiki-transport/stages'
 
 export async function get ({ pre: { zid, rid } }) {
   try {
