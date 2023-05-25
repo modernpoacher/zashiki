@@ -29,7 +29,7 @@ export default async function getComponents ({ alpha } = {}) {
     } = await import(resolve(components))
 
     return ALPHA
-  } catch (e) {
+  } catch {
     throw Boom.badImplementation(BAD_IMPLEMENTATION)
   }
 }

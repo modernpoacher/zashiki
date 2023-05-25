@@ -33,7 +33,7 @@ export default async function getComponents (params = {}) {
     } = await import(resolve(components))
 
     return DEBARK
-  } catch (e) {
+  } catch {
     throw Boom.badImplementation(BAD_IMPLEMENTATION)
   }
 }

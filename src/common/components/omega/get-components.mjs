@@ -31,7 +31,7 @@ export default async function getComponents ({ alpha, omega } = {}) {
     } = await import(resolve(components))
 
     return OMEGA
-  } catch (e) {
+  } catch {
     throw Boom.badImplementation(BAD_IMPLEMENTATION)
   }
 }
