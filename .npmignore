@@ -2,19 +2,25 @@
 
 .circleci
 .github
+.husky
 
 .editorconfig
 .eslintignore
 .eslintrc
 
+.gitattributes
+.gitignore
+
 # NPM
 .npmignore
 .npmrc
 
+# NVM
+.nvmrc
+
 # Config
 config
 !src/**/config
-!lib/**/config
 config.env
 config.json
 *.code-workspace

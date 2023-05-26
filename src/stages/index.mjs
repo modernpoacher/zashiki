@@ -53,8 +53,8 @@ export const state = {
   failAction: 'error'
 }
 
-export { default as alpha } from './alpha.mjs'
-export { default as omega } from './omega.mjs'
-export { default as embark } from './embark.mjs'
-export { default as debark } from './debark.mjs'
-export { default as confirm } from './confirm.mjs'
+export * as alpha from './alpha.mjs'
+export * as omega from './omega.mjs'
+export * as embark from './embark.mjs'
+export * as debark from './debark.mjs'
+export * as confirm from './confirm.mjs'
