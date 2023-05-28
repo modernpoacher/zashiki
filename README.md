@@ -22,7 +22,7 @@ All parameters can be provided as command line arguments.
 ```json
 {
   "mongo": {
-    "uri": "mongodb://localhost:27017/zashiki-transport",
+    "uri": "mongodb://127.0.0.1:27017/zashiki-transport",
     "options": {}
   }
 }
@@ -45,7 +45,7 @@ All parameters can be provided as command line arguments.
   "catbox": {
     "cache": {
       "client": {
-        "uri": "mongodb://localhost:27017/",
+        "uri": "mongodb://127.0.0.1:27017/",
         "partition": "zashiki-mechanism"
       }
     }
@@ -87,7 +87,7 @@ Or:
 npm start -- \
   --server:host localhost \
   --server:port 5001 \
-  --mongo:uri mongodb://localhost:27017/zashiki-transport \
+  --mongo:uri mongodb://127.0.0.1:27017/zashiki-transport \
   --karakuri:baseUrl http://localhost:5003/api/v1 \
-  --catbox:cache:client:uri mongodb://localhost:27017
+  --catbox:cache:client:uri mongodb://127.0.0.1:27017
 ```

@@ -34,7 +34,7 @@ export default {
   catbox: {
     cache: {
       client: {
-        uri: 'mongodb://localhost:27017',
+        uri: 'mongodb://127.0.0.1:27017',
         partition: 'zashiki-mechanism'
       },
       policy: {
@@ -213,7 +213,7 @@ export default {
     }
   },
   mongo: {
-    uri: 'mongodb://localhost:27017/zashiki-transport',
+    uri: 'mongodb://127.0.0.1:27017/zashiki-transport',
     options: {}
   },
   route: {
