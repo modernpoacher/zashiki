@@ -1,7 +1,7 @@
 import debug from 'debug'
 
 import Boom from '@hapi/boom'
-import Joi from '@hapi/joi'
+import Joi from 'joi'
 
 import {
   NOT_FOUND

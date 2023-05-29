@@ -21,11 +21,11 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@hapi/joi": "^17.1.1",
     "@modernpoacher/zashiki-transport": "2.1.4",
     "concurrently": "^8.0.1",
     "debug": "^4.3.4",
     "dotenv": "^16.0.3",
+    "joi": "^17.9.2",
     "nconf": "^0.12.0",
     "shinkansen-rails": "1.0.60",
     "shinkansen-signals": "1.1.43",
