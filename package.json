@@ -26,7 +26,7 @@
     "dotenv": "^16.0.3",
     "joi": "^17.9.2",
     "nconf": "^0.12.0",
-    "shinkansen-rails": "1.0.60",
+    "shinkansen-rails": "1.0.62",
     "shinkansen-signals": "1.1.43",
     "shinkansen-transmission": "2.2.56"
   },
