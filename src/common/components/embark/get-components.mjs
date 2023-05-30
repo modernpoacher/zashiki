@@ -24,13 +24,15 @@ const {
   embark: components
 } = zashiki.get('zashiki:components')
 
-export default async function getComponents (params = {}) {
+const COMPONENTS = resolve(components)
+
+export default async function getComponents ({ embark = EMBARK_STAGE } = {}) {
   log('getComponents')
 
   try {
     const {
-      [EMBARK_STAGE]: EMBARK = {}
-    } = await import(resolve(components))
+      [embark]: EMBARK = {}
+    } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return EMBARK
   } catch {

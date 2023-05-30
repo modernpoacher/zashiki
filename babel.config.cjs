@@ -30,10 +30,15 @@ const presets = [
   ]
 ]
 
+const plugins = [
+  '@babel/syntax-import-attributes'
+]
+
 module.exports = (api) => {
   if (api) api.cache.using(env)
 
   return {
-    presets
+    presets,
+    plugins
   }
 }

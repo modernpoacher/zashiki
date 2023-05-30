@@ -24,13 +24,15 @@ const {
   debark: components
 } = zashiki.get('zashiki:components')
 
-export default async function getComponents (params = {}) {
+const COMPONENTS = resolve(components)
+
+export default async function getComponents ({ debark = DEBARK_STAGE } = {}) {
   log('getComponents')
 
   try {
     const {
-      [DEBARK_STAGE]: DEBARK = {}
-    } = await import(resolve(components))
+      [debark]: DEBARK = {}
+    } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return DEBARK
   } catch {

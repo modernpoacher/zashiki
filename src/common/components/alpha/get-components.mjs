@@ -20,13 +20,15 @@ const {
   alpha: components
 } = zashiki.get('zashiki:components')
 
+const COMPONENTS = resolve(components)
+
 export default async function getComponents ({ alpha } = {}) {
   log('getComponents')
 
   try {
     const {
       [alpha]: ALPHA = {}
-    } = await import(resolve(components))
+    } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return ALPHA
   } catch {
