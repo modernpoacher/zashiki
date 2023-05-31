@@ -38,6 +38,8 @@ export function handleException ({
 }
 
 export default function exception (error) {
+  log('exception')
+
   return {
     status: Signals.FAILURE,
     exception: transformException(error)

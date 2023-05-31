@@ -4,7 +4,7 @@ import {
 
 export default {
   assign: 'response',
-  method: function response ({ payload = {} }) {
+  method ({ payload = {} }) {
     try {
       return payload
     } catch (e) {

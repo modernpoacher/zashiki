@@ -6,7 +6,7 @@ import transformFromHashToDocument from 'shinkansen-transmission/transmission/fr
 
 export default {
   assign: 'response',
-  method: function response ({ payload = {}, pre: { definition = [] } }) {
+  method ({ payload = {}, pre: { definition = [] } }) {
     try {
       return definition.map((definition) => transformFromHashToDocument(payload, definition))
     } catch (e) {

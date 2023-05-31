@@ -1,3 +1,5 @@
+import debug from 'debug'
+
 import Boom from '@hapi/boom'
 
 import {
@@ -12,7 +14,13 @@ import {
   NOT_FOUND
 } from './exception.mjs'
 
+const log = debug('zashiki/common/get-resource-url')
+
+log('`zashiki` is awake')
+
 export default function getResourceUrl (resource = {}) {
+  log('getResourceUrl')
+
   if (Rails.go(resource, Signals.OMEGA_PATTERN)) {
     return Rails.to(resource, Signals.OMEGA_PATTERN)
   } else {

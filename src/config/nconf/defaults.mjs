@@ -17,17 +17,18 @@ export default {
       path: '/'
     },
     components: {
-      alpha: './components/alpha',
-      omega: './components/omega',
-      embark: './components/embark',
-      debark: './components/debark',
-      confirm: './components/confirm'
+      alpha: './components/alpha.json',
+      omega: './components/omega.json',
+      embark: './components/embark.json',
+      debark: './components/debark.json',
+      confirm: './components/confirm.json'
     }
   },
   karakuri: {
-    baseUrl: 'https://localhost:5003/api/v1',
+    baseUrl: 'https://127.0.0.1:5003/api/v1',
     headers: {
-      Accept: 'application/hal+json'
+      Accept: 'application/hal+json',
+      'Content-Type': 'application/json'
     },
     authorisation: {}
   },
@@ -205,7 +206,7 @@ export default {
     }
   },
   server: {
-    host: 'localhost',
+    host: '0.0.0.0',
     port: 5000,
     cors: {
       credentials: true,

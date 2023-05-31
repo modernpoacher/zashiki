@@ -31,7 +31,9 @@ export default async function getComponents ({ embark = EMBARK_STAGE } = {}) {
 
   try {
     const {
-      [embark]: EMBARK = {}
+      default: {
+        [embark]: EMBARK = {}
+      }
     } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return EMBARK

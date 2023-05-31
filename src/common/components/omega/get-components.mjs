@@ -27,9 +27,11 @@ export default async function getComponents ({ alpha, omega } = {}) {
 
   try {
     const {
-      [alpha]: {
-        [omega]: OMEGA = {}
-      } = {}
+      default: {
+        [alpha]: {
+          [omega]: OMEGA = {}
+        } = {}
+      }
     } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return OMEGA

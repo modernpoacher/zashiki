@@ -31,7 +31,9 @@ export default async function getComponents ({ debark = DEBARK_STAGE } = {}) {
 
   try {
     const {
-      [debark]: DEBARK = {}
+      default: {
+        [debark]: DEBARK = {}
+      }
     } = await import(COMPONENTS, { assert: { type: 'json' } })
 
     return DEBARK

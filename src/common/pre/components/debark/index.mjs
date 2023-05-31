@@ -5,7 +5,7 @@ import getComponents from '#common/components/debark/get-components'
  */
 export default {
   assign: 'components',
-  method ({ pre: { zid } }) {
-    return getComponents({ zid })
+  method ({ params }) {
+    return getComponents(params)
   }
 }
