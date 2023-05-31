@@ -24,9 +24,11 @@ log('`zashiki` is awake')
 export * from '@modernpoacher/zashiki-transport/stages'
 
 export async function get ({ pre: { zid, rid }, params: resource = {} }) {
-  try {
-    log({ zid, rid, resource })
+  /**
+   *  log({ zid, rid, resource })
+   */
 
+  try {
     await change({ zid, rid, resource })
 
     return fetch({ zid, rid, resource })
@@ -36,9 +38,11 @@ export async function get ({ pre: { zid, rid }, params: resource = {} }) {
 }
 
 export async function post ({ pre: { zid, rid, response = {} }, params: resource = {} }) {
-  try {
-    log({ zid, rid, resource })
+  /**
+   *  log({ zid, rid, resource })
+   */
 
+  try {
     await change({ zid, rid, resource })
 
     await store({ zid, rid, response, resource })

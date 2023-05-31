@@ -37,9 +37,11 @@ export {
 } from '@modernpoacher/zashiki-transport/stages'
 
 export async function get ({ pre: { zid } }) {
-  try {
-    log({ zid })
+  /**
+   *  log({ zid })
+   */
 
+  try {
     await change({ zid, resource: EMBARK_RESOURCE })
 
     return fetch({ zid })
@@ -49,9 +51,11 @@ export async function get ({ pre: { zid } }) {
 }
 
 export async function post ({ pre: { zid, rid, response = {} } }) {
-  try {
-    log({ zid, rid })
+  /**
+   *  log({ zid, rid })
+   */
 
+  try {
     await change({ zid, rid, resource: EMBARK_RESOURCE })
 
     const { response: { collection } } = await store({ zid, rid, response })

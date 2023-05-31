@@ -11,7 +11,7 @@ All parameters can be provided as command line arguments.
 ```json
 {
   "server": {
-    "host": "localhost",
+    "host": "0.0.0.0",
     "port": 5001
   }
 }
@@ -33,7 +33,7 @@ All parameters can be provided as command line arguments.
 ```json
 {
   "karakuri": {
-    "baseUrl": "http://localhost:5003/api/v1"
+    "baseUrl": "http://127.0.0.1:5003/api/v1"
   }
 }
 ```
@@ -59,7 +59,7 @@ All parameters can be provided as command line arguments.
 
 ```bash
 API_PROTOCOL='http'
-API_HOST='localhost'
+API_HOST='127.0.0.1'
 API_PORT='5002'
 API_PATH='api'
 API_VERSION='v1'
@@ -85,9 +85,9 @@ Or:
 
 ```bash
 npm start -- \
-  --server:host localhost \
+  --server:host 0.0.0.0 \
   --server:port 5001 \
   --mongo:uri mongodb://127.0.0.1:27017/zashiki-transport \
-  --karakuri:baseUrl http://localhost:5003/api/v1 \
+  --karakuri:baseUrl http://127.0.0.1:5003/api/v1 \
   --catbox:cache:client:uri mongodb://127.0.0.1:27017
 ```
