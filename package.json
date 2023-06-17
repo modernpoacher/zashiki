@@ -28,7 +28,7 @@
     "nconf": "^0.12.0",
     "shinkansen-rails": "1.0.72",
     "shinkansen-signals": "1.1.57",
-    "shinkansen-transmission": "2.2.68"
+    "shinkansen-transmission": "2.2.69"
   },
   "devDependencies": {
     "@babel/core": "^7.22.5",
