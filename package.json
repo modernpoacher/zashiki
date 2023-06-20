@@ -27,7 +27,7 @@
     "joi": "^17.9.2",
     "nconf": "^0.12.0",
     "shinkansen-rails": "1.0.72",
-    "shinkansen-signals": "1.1.57",
+    "shinkansen-signals": "1.1.58",
     "shinkansen-transmission": "2.2.69"
   },
   "devDependencies": {
