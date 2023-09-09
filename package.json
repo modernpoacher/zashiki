@@ -11,7 +11,7 @@
   },
   "license": "UNLICENSED",
   "engines": {
-    "node": ">=18.5.0"
+    "node": ">=18.12.0"
   },
   "repository": {
     "type": "git",
@@ -25,14 +25,14 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.1.54",
+    "@modernpoacher/zashiki-transport": "2.1.55",
     "debug": "^4.3.4",
     "dotenv": "^16.3.1",
     "joi": "^17.10.1",
     "nconf": "^0.12.0",
-    "shinkansen-rails": "1.0.93",
-    "shinkansen-signals": "1.1.78",
-    "shinkansen-transmission": "2.2.91"
+    "shinkansen-rails": "1.0.94",
+    "shinkansen-signals": "1.1.79",
+    "shinkansen-transmission": "2.2.92"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
