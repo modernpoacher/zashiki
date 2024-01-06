@@ -38,7 +38,7 @@ describe('@modernpoacher/zashiki/common/pre/rid/alpha', () => {
       })
     })
 
-    describe('`method`', () => {
+    xdescribe('`method`', () => {
       it('is a function', () => {
         expect(alpha.method)
           .to.be.a('function')

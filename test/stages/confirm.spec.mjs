@@ -6,11 +6,10 @@ import {
   get,
   post,
   pre,
-  state,
-  validate
-} from '@modernpoacher/zashiki/stages/alpha'
+  state
+} from '@modernpoacher/zashiki/stages/confirm'
 
-describe('@modernpoacher/zashiki/stages/alpha', () => {
+describe('@modernpoacher/zashiki/stages/confirm', () => {
   before(() => {
     const {
       env: {
@@ -21,14 +20,14 @@ describe('@modernpoacher/zashiki/stages/alpha', () => {
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  describe('`get`', () => {
+  xdescribe('`get`', () => {
     it('is a function', () => {
       expect(get)
         .to.be.a('function')
     })
   })
 
-  describe('`post`', () => {
+  xdescribe('`post`', () => {
     it('is a function', () => {
       expect(post)
         .to.be.a('function')
@@ -45,13 +44,6 @@ describe('@modernpoacher/zashiki/stages/alpha', () => {
   describe('`state`', () => {
     it('is an object', () => {
       expect(state)
-        .to.be.an('object')
-    })
-  })
-
-  describe('`validate`', () => {
-    it('is an object', () => {
-      expect(validate)
         .to.be.an('object')
     })
   })

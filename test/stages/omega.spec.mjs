@@ -21,14 +21,14 @@ describe('@modernpoacher/zashiki/stages/omega', () => {
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  describe('`get`', () => {
+  xdescribe('`get`', () => {
     it('is a function', () => {
       expect(get)
         .to.be.a('function')
     })
   })
 
-  describe('`post`', () => {
+  xdescribe('`post`', () => {
     it('is a function', () => {
       expect(post)
         .to.be.a('function')

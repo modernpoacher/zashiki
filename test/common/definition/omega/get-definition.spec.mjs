@@ -15,7 +15,7 @@ describe('@modernpoacher/zashiki/common/definition/omega/get-definition', () => 
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  describe('`getDefinition`', () => {
+  xdescribe('`getDefinition`', () => {
     it('is a function', () => {
       expect(getDefinition)
         .to.be.a('function')

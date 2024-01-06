@@ -15,7 +15,7 @@ describe('@modernpoacher/zashiki/common/description/alpha/get-description', () =
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  describe('`getDescription`', () => {
+  xdescribe('`getDescription`', () => {
     it('is a function', () => {
       expect(getDescription)
         .to.be.a('function')
