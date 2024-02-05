@@ -31,8 +31,8 @@
     "joi": "^17.12.1",
     "nconf": "^0.12.1",
     "shinkansen-rails": "1.0.133",
-    "shinkansen-signals": "1.1.111",
-    "shinkansen-transmission": "2.2.127"
+    "shinkansen-signals": "1.1.112",
+    "shinkansen-transmission": "2.2.128"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
