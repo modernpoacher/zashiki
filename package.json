@@ -30,9 +30,9 @@
     "dotenv": "^16.4.1",
     "joi": "^17.12.1",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.133",
-    "shinkansen-signals": "1.1.112",
-    "shinkansen-transmission": "2.2.128"
+    "shinkansen-rails": "1.0.134",
+    "shinkansen-signals": "1.1.113",
+    "shinkansen-transmission": "2.2.129"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
@@ -47,7 +47,7 @@
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "husky": "^9.0.10",
-    "mocha": "^10.2.0"
+    "mocha": "^10.3.0"
   },
   "imports": {
     "#config/*": "./src/config/*.mjs",
