@@ -28,7 +28,7 @@
     "@modernpoacher/zashiki-transport": "2.1.130",
     "debug": "^4.3.4",
     "dotenv": "^16.4.5",
-    "joi": "^17.12.1",
+    "joi": "^17.12.2",
     "nconf": "^0.12.1",
     "shinkansen-rails": "1.0.138",
     "shinkansen-signals": "1.1.117",
