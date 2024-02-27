@@ -30,9 +30,9 @@
     "dotenv": "^16.4.5",
     "joi": "^17.12.2",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.141",
-    "shinkansen-signals": "1.1.120",
-    "shinkansen-transmission": "2.2.137"
+    "shinkansen-rails": "1.0.142",
+    "shinkansen-signals": "1.1.121",
+    "shinkansen-transmission": "2.2.138"
   },
   "devDependencies": {
     "@babel/core": "^7.23.9",
