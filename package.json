@@ -30,9 +30,9 @@
     "dotenv": "^16.4.5",
     "joi": "^17.12.2",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.145",
-    "shinkansen-signals": "1.1.124",
-    "shinkansen-transmission": "2.2.141"
+    "shinkansen-rails": "1.0.146",
+    "shinkansen-signals": "1.1.125",
+    "shinkansen-transmission": "2.2.142"
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
@@ -40,9 +40,9 @@
     "@babel/plugin-syntax-import-attributes": "^7.23.3",
     "@babel/preset-env": "^7.24.0",
     "@babel/register": "^7.23.7",
-    "@modernpoacher/hooks": "^1.0.467",
+    "@modernpoacher/hooks": "^1.0.468",
     "chai": "^5.1.0",
-    "core-js": "^3.36.0",
+    "core-js": "^3.36.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.0",
     "eslint-config-standard": "^17.1.0",
