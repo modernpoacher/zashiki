@@ -35,12 +35,12 @@
     "shinkansen-transmission": "2.2.161"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.5",
-    "@babel/eslint-parser": "^7.24.5",
-    "@babel/plugin-syntax-import-attributes": "^7.24.1",
-    "@babel/preset-env": "^7.24.5",
-    "@babel/register": "^7.23.7",
-    "@modernpoacher/hooks": "^1.0.475",
+    "@babel/core": "^7.24.6",
+    "@babel/eslint-parser": "^7.24.6",
+    "@babel/plugin-syntax-import-attributes": "^7.24.6",
+    "@babel/preset-env": "^7.24.6",
+    "@babel/register": "^7.24.6",
+    "@modernpoacher/hooks": "^1.0.476",
     "chai": "^5.1.1",
     "core-js": "^3.37.1",
     "cross-env": "^7.0.3",
