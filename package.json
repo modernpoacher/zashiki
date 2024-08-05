@@ -25,14 +25,14 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.1.217",
+    "@modernpoacher/zashiki-transport": "2.1.218",
     "debug": "^4.3.6",
     "dotenv": "^16.4.5",
     "joi": "^17.13.3",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.191",
-    "shinkansen-signals": "1.1.166",
-    "shinkansen-transmission": "2.2.187"
+    "shinkansen-rails": "1.0.192",
+    "shinkansen-signals": "1.1.167",
+    "shinkansen-transmission": "2.2.188"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -40,9 +40,9 @@
     "@babel/plugin-syntax-import-attributes": "^7.24.7",
     "@babel/preset-env": "^7.25.3",
     "@babel/register": "^7.24.6",
-    "@modernpoacher/hooks": "^1.0.489",
+    "@modernpoacher/hooks": "^1.0.490",
     "chai": "^5.1.1",
-    "core-js": "^3.37.1",
+    "core-js": "^3.38.0",
     "cross-env": "^7.0.3",
     "eslint": "8.57.0",
     "eslint-config-standard": "^17.1.0",
