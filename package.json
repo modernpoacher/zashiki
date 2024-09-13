@@ -25,12 +25,12 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.1.249",
+    "@modernpoacher/zashiki-transport": "2.1.250",
     "debug": "^4.3.7",
     "dotenv": "^16.4.5",
     "joi": "^17.13.3",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.223",
+    "shinkansen-rails": "1.0.224",
     "shinkansen-signals": "1.1.173",
     "shinkansen-transmission": "2.2.194"
   },
