@@ -30,15 +30,15 @@
     "dotenv": "^16.4.5",
     "joi": "^17.13.3",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.234",
-    "shinkansen-signals": "1.1.174",
-    "shinkansen-transmission": "2.2.196"
+    "shinkansen-rails": "1.0.235",
+    "shinkansen-signals": "1.1.175",
+    "shinkansen-transmission": "2.2.197"
   },
   "devDependencies": {
-    "@babel/core": "^7.25.7",
-    "@babel/eslint-parser": "^7.25.7",
+    "@babel/core": "^7.25.8",
+    "@babel/eslint-parser": "^7.25.8",
     "@babel/plugin-syntax-import-attributes": "^7.25.7",
-    "@babel/preset-env": "^7.25.7",
+    "@babel/preset-env": "^7.25.8",
     "@babel/register": "^7.25.7",
     "chai": "^5.1.1",
     "core-js": "^3.38.1",
