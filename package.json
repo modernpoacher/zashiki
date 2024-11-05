@@ -30,7 +30,7 @@
     "dotenv": "^16.4.5",
     "joi": "^17.13.3",
     "nconf": "^0.12.1",
-    "shinkansen-rails": "1.0.244",
+    "shinkansen-rails": "1.0.245",
     "shinkansen-signals": "1.1.180",
     "shinkansen-transmission": "2.2.202"
   },
