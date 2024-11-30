@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/modernpoacher/zashiki.git"
+    "url": "git+ssh://git@github.com/modernpoacher/zashiki.git"
   },
   "scripts": {
     "lint": "eslint . --ext .mjs,.cjs",
