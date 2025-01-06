@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import hasDefinition from '@modernpoacher/zashiki/common/definition/embark/has-definition'
 

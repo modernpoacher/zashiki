@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import getDefinition from '@modernpoacher/zashiki/common/definition/omega/get-definition'
 

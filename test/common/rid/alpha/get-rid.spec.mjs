@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import getRID from '@modernpoacher/zashiki/common/rid/alpha/get-rid'
 

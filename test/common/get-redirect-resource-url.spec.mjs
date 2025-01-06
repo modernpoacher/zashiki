@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import getRedirectResourceUrl from '@modernpoacher/zashiki/common/get-redirect-resource-url'
 

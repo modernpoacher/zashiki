@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import getResourceUrl from '@modernpoacher/zashiki/common/get-resource-url'
 

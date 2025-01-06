@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import debark from '@modernpoacher/zashiki/common/pre/definition/debark'
 

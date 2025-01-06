@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import omega from '@modernpoacher/zashiki/common/pre/components/omega'
 

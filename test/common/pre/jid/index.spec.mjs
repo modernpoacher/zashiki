@@ -1,6 +1,8 @@
 import debug from 'debug'
 
-import { expect } from 'chai'
+import {
+  expect
+} from 'chai'
 
 import zid from '@modernpoacher/zashiki/common/pre/zid'
 
