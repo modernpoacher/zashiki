@@ -2,7 +2,11 @@ import debug from 'debug'
 
 import {
   resolve
-} from 'path'
+} from 'node:path'
+
+import {
+  readFile
+} from 'node:fs/promises'
 
 import Boom from '@hapi/boom'
 
@@ -27,10 +31,15 @@ export default async function getComponents ({ alpha } = {}) {
 
   try {
     const {
+      [alpha]: ALPHA = {}
+    } = JSON.parse(await readFile(COMPONENTS, 'utf8'))
+
+    /*
+    const {
       default: {
         [alpha]: ALPHA = {}
       }
-    } = await import(COMPONENTS, { assert: { type: 'json' } })
+    } = await import(COMPONENTS, { assert: { type: 'json' } }) */
 
     return ALPHA
   } catch {

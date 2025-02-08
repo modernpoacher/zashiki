@@ -2,7 +2,11 @@ import debug from 'debug'
 
 import {
   resolve
-} from 'path'
+} from 'node:path'
+
+import {
+  readFile
+} from 'node:fs/promises'
 
 import Boom from '@hapi/boom'
 
@@ -31,10 +35,15 @@ export default async function getComponents ({ embark = EMBARK_STAGE } = {}) {
 
   try {
     const {
+      [embark]: EMBARK = {}
+    } = JSON.parse(await readFile(COMPONENTS, 'utf8'))
+
+    /*
+    const {
       default: {
         [embark]: EMBARK = {}
       }
-    } = await import(COMPONENTS, { assert: { type: 'json' } })
+    } = await import(COMPONENTS, { assert: { type: 'json' } }) */
 
     return EMBARK
   } catch {
