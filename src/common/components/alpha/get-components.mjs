@@ -4,9 +4,10 @@ import {
   resolve
 } from 'node:path'
 
+/*
 import {
   readFile
-} from 'node:fs/promises'
+} from 'node:fs/promises' */
 
 import Boom from '@hapi/boom'
 
@@ -31,15 +32,15 @@ export default async function getComponents ({ alpha } = {}) {
 
   try {
     const {
-      [alpha]: ALPHA = {}
-    } = JSON.parse(await readFile(COMPONENTS, 'utf8'))
+      default: {
+        [alpha]: ALPHA = {}
+      } = {}
+    } = await import(COMPONENTS, { with: { type: 'json' } })
 
     /*
     const {
-      default: {
-        [alpha]: ALPHA = {}
-      }
-    } = await import(COMPONENTS, { assert: { type: 'json' } }) */
+      [alpha]: ALPHA = {}
+    } = JSON.parse(await readFile(COMPONENTS, 'utf8')) */
 
     return ALPHA
   } catch {

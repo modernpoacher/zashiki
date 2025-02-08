@@ -4,9 +4,10 @@ import {
   resolve
 } from 'node:path'
 
+/*
 import {
   readFile
-} from 'node:fs/promises'
+} from 'node:fs/promises' */
 
 import Boom from '@hapi/boom'
 
@@ -35,15 +36,15 @@ export default async function getComponents ({ debark = DEBARK_STAGE } = {}) {
 
   try {
     const {
-      [debark]: DEBARK = {}
-    } = JSON.parse(await readFile(COMPONENTS, 'utf8'))
+      default: {
+        [debark]: DEBARK = {}
+      } = {}
+    } = await import(COMPONENTS, { with: { type: 'json' } })
 
     /*
     const {
-      default: {
-        [debark]: DEBARK = {}
-      }
-    } = await import(COMPONENTS, { assert: { type: 'json' } }) */
+      [debark]: DEBARK = {}
+    } = JSON.parse(await readFile(COMPONENTS, 'utf8')) */
 
     return DEBARK
   } catch {
