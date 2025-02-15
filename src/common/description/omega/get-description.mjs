@@ -3,7 +3,7 @@ import debug from 'debug'
 import Boom from '@hapi/boom'
 
 import {
-  mapAlphaOmega
+  mapAlphaOmegaStage
 } from '@modernpoacher/zashiki-transport/maps'
 
 import {
@@ -26,7 +26,7 @@ export default async function getDescription (params = {}) {
       OID: {
         description = {}
       } = {}
-    } = await getOmegaFromCache(await mapAlphaOmega(params))
+    } = await getOmegaFromCache(await mapAlphaOmegaStage(params))
 
     return description
   } catch (e) {

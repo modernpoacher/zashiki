@@ -7,7 +7,7 @@ import {
 } from '@modernpoacher/zashiki-transport/stores/components/route-list/master'
 
 import {
-  mapAlphaOmega
+  mapAlphaOmegaStage
 } from '@modernpoacher/zashiki-transport/maps'
 
 import {
@@ -30,7 +30,7 @@ export default async function getRID ({ pre: { zid } = {}, state = {}, params = 
   const {
     aid,
     oid
-  } = await getOmegaFromCache(await mapAlphaOmega(params))
+  } = await getOmegaFromCache(await mapAlphaOmegaStage(params))
 
   const routeList = routeListMaster.use(zid)
   const resource = {
