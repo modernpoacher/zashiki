@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/description/debark/has-description', () 
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`hasDescription`', () => {
+  describe('`hasDescription`', () => {
     it('is a function', () => {
       expect(hasDescription)
         .to.be.a('function')

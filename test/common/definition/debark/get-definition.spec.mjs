@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/definition/debark/get-definition', () =>
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`getDefinition`', () => {
+  describe('`getDefinition`', () => {
     it('is a function', () => {
       expect(getDefinition)
         .to.be.a('function')

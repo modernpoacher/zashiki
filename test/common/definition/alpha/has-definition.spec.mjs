@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/definition/alpha/has-definition', () => 
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`hasDefinition`', () => {
+  describe('`hasDefinition`', () => {
     it('is a function', () => {
       expect(hasDefinition)
         .to.be.a('function')

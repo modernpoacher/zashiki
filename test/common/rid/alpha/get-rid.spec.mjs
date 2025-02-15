@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/rid/alpha/get-rid', () => {
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`getRID`', () => {
+  describe('`getRID`', () => {
     it('is a function', () => {
       expect(getRID)
         .to.be.a('function')

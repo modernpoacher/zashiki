@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/components/omega/get-components', () => 
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`getComponents`', () => {
+  describe('`getComponents`', () => {
     it('is a function', () => {
       expect(getComponents)
         .to.be.a('function')

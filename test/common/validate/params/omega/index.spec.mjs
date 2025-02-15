@@ -29,7 +29,7 @@ describe('@modernpoacher/zashiki/common/validate/params/omega', () => {
     })
   })
 
-  xdescribe('`hasDefinition`', () => {
+  describe('`hasDefinition`', () => {
     it('is a function', () => {
       expect(hasDefinition)
         .to.be.a('function')

@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/components/embark/has-components', () =>
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`hasComponents`', () => {
+  describe('`hasComponents`', () => {
     it('is a function', () => {
       expect(hasComponents)
         .to.be.a('function')

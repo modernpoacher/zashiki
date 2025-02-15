@@ -17,7 +17,7 @@ describe('@modernpoacher/zashiki/common/rid/omega/has-rid', () => {
     if (DEBUG) debug.enable(DEBUG)
   })
 
-  xdescribe('`hasRID`', () => {
+  describe('`hasRID`', () => {
     it('is a function', () => {
       expect(hasRID)
         .to.be.a('function')
