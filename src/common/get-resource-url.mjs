@@ -3,12 +3,12 @@ import debug from 'debug'
 import Boom from '@hapi/boom'
 
 import {
-  Rails
-} from 'shinkansen-rails'
-
-import {
   Signals
 } from 'shinkansen-signals'
+
+import {
+  Rails
+} from 'shinkansen-rails'
 
 import {
   NOT_FOUND
