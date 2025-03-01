@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -12,16 +10,6 @@ import {
 } from '@modernpoacher/zashiki/stages/confirm'
 
 describe('@modernpoacher/zashiki/stages/confirm', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`get`', () => {
     it('is a function', () => {
       expect(get)

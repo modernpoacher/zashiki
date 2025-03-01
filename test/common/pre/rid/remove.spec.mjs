@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import remove from '@modernpoacher/zashiki/common/pre/rid/remove'
 
 describe('@modernpoacher/zashiki/common/pre/rid/remove', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`remove`', () => {
     it('is an object', () => {
       expect(remove)

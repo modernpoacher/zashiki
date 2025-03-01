@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import hasRID from '@modernpoacher/zashiki/common/rid/alpha/has-rid'
 
 describe('@modernpoacher/zashiki/common/rid/alpha/has-rid', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`hasRID`', () => {
     it('is a function', () => {
       expect(hasRID)

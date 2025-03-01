@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import debark from '@modernpoacher/zashiki/common/pre/description/debark'
 
 describe('@modernpoacher/zashiki/common/pre/description/debark', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`debark`', () => {
     it('is an object', () => {
       expect(debark)

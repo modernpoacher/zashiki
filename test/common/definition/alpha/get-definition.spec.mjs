@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import getDefinition from '@modernpoacher/zashiki/common/definition/alpha/get-definition'
 
 describe('@modernpoacher/zashiki/common/definition/alpha/get-definition', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`getDefinition`', () => {
     it('is a function', () => {
       expect(getDefinition)

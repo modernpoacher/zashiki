@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import omega from '@modernpoacher/zashiki/common/pre/components/omega'
 
 describe('@modernpoacher/zashiki/common/pre/components/omega', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`omega`', () => {
     it('is an object', () => {
       expect(omega)

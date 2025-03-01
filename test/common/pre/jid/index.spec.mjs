@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -7,16 +5,6 @@ import {
 import zid from '@modernpoacher/zashiki/common/pre/zid'
 
 describe('@modernpoacher/zashiki/common/pre/zid', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`zid`', () => {
     it('is an object', () => {
       expect(zid)

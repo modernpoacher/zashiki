@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -12,16 +10,6 @@ import exception, {
 } from '@modernpoacher/zashiki/common/exception'
 
 describe('@modernpoacher/zashiki/common/exception', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`exception`', () => {
     it('is a function', () => {
       expect(exception)

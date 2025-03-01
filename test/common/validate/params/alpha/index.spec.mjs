@@ -1,5 +1,3 @@
-import debug from 'debug'
-
 import {
   expect
 } from 'chai'
@@ -11,16 +9,6 @@ import validate, {
 } from '@modernpoacher/zashiki/common/validate/params/alpha'
 
 describe('@modernpoacher/zashiki/common/validate/params/alpha', () => {
-  before(() => {
-    const {
-      env: {
-        DEBUG
-      }
-    } = process
-
-    if (DEBUG) debug.enable(DEBUG)
-  })
-
   describe('`validate`', () => {
     it('is an object', () => {
       expect(validate)
