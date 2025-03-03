@@ -44,7 +44,7 @@ export async function get ({ pre: { zid } }) {
   try {
     await change({ zid, resource: EMBARK_RESOURCE })
 
-    return fetch({ zid })
+    return await fetch({ zid })
   } catch (e) {
     handleException(e)
   }

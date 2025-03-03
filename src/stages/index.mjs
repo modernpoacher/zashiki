@@ -27,7 +27,7 @@ export async function get ({ pre: { zid }, params: resource = {} }) {
   try {
     await change({ zid, resource })
 
-    return fetch({ zid, resource })
+    return await fetch({ zid, resource })
   } catch (e) {
     handleException(e)
   }
@@ -41,7 +41,7 @@ export async function post ({ pre: { zid, response }, params: resource = {} }) {
   try {
     await change({ zid, resource })
 
-    return store({ zid, resource, response })
+    return await store({ zid, resource, response })
   } catch (e) {
     handleException(e)
   }

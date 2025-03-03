@@ -37,7 +37,7 @@ export async function get ({ pre: { zid, rid } }) {
   try {
     await change({ zid, rid, resource: CONFIRM_RESOURCE })
 
-    return fetch({ zid, rid })
+    return await fetch({ zid, rid })
   } catch (e) {
     handleException(e)
   }
