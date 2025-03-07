@@ -8,9 +8,9 @@ import {
   pre,
   state,
   validate
-} from '@modernpoacher/zashiki/stages/omega'
+} from '#zashiki/stages/omega'
 
-describe('@modernpoacher/zashiki/stages/omega', () => {
+describe('#zashiki/stages/omega', () => {
   describe('`get`', () => {
     it('is a function', () => {
       expect(get)

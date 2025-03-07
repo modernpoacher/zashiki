@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import remove from '@modernpoacher/zashiki/common/pre/rid/remove'
+import remove from '#zashiki/common/pre/rid/remove'
 
-describe('@modernpoacher/zashiki/common/pre/rid/remove', () => {
+describe('#zashiki/common/pre/rid/remove', () => {
   describe('`remove`', () => {
     it('is an object', () => {
       expect(remove)

@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import omega from '@modernpoacher/zashiki/common/pre/rid/omega'
+import omega from '#zashiki/common/pre/rid/omega'
 
-describe('@modernpoacher/zashiki/common/pre/rid/omega', () => {
+describe('#zashiki/common/pre/rid/omega', () => {
   describe('`omega`', () => {
     it('is an object', () => {
       expect(omega)

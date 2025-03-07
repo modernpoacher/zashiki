@@ -1,4 +1,4 @@
-import zashiki from '#config'
+import zashiki from '#zashiki/config'
 
 import {
   createRID

@@ -7,9 +7,9 @@ import {
   post,
   pre,
   state
-} from '@modernpoacher/zashiki/stages/confirm'
+} from '#zashiki/stages/confirm'
 
-describe('@modernpoacher/zashiki/stages/confirm', () => {
+describe('#zashiki/stages/confirm', () => {
   describe('`get`', () => {
     it('is a function', () => {
       expect(get)

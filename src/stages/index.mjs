@@ -8,10 +8,10 @@ import {
 
 import {
   handleException
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
-import zid from '#common/pre/zid'
-import rid from '#common/pre/rid'
+import zid from '#zashiki/common/pre/zid'
+import rid from '#zashiki/common/pre/rid'
 
 const log = debug('zashiki/stages')
 

@@ -1,6 +1,6 @@
 import {
   handleException
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 export default {
   assign: 'response',

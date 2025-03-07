@@ -11,7 +11,7 @@ import {
 
 import Boom from '@hapi/boom'
 
-import zashiki from '#config'
+import zashiki from '#zashiki/config'
 
 import {
   DEBARK_STAGE
@@ -19,7 +19,7 @@ import {
 
 import {
   BAD_IMPLEMENTATION
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 const log = debug('zashiki/common/components/debark/get-components')
 

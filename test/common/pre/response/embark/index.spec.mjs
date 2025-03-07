@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import embark from '@modernpoacher/zashiki/common/pre/response/embark'
+import embark from '#zashiki/common/pre/response/embark'
 
-describe('@modernpoacher/zashiki/common/pre/response/embark', () => {
+describe('#zashiki/common/pre/response/embark', () => {
   describe('`embark`', () => {
     it('is an object', () => {
       expect(embark)

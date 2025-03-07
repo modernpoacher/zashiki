@@ -1,6 +1,6 @@
 import Boom from '@hapi/boom'
 
-import zashiki from '#config'
+import zashiki from '#zashiki/config'
 
 import {
   createZID
@@ -8,7 +8,7 @@ import {
 
 import {
   BAD_IMPLEMENTATION
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 const ZID = zashiki.get('zashiki:zid')
 const BEARERTOKEN = /[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}/i

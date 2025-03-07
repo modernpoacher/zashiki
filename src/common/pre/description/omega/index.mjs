@@ -1,4 +1,4 @@
-import getDescription from '#common/description/omega/get-description'
+import getDescription from '#zashiki/common/description/omega/get-description'
 
 /*
  *  `Promise`

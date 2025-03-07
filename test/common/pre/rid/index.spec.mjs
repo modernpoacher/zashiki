@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import rid from '@modernpoacher/zashiki/common/pre/rid'
+import rid from '#zashiki/common/pre/rid'
 
-describe('@modernpoacher/zashiki/common/pre/rid', () => {
+describe('#zashiki/common/pre/rid', () => {
   describe('`rid`', () => {
     it('is an object', () => {
       expect(rid)

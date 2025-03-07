@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import alpha from '@modernpoacher/zashiki/common/pre/definition/alpha'
+import alpha from '#zashiki/common/pre/definition/alpha'
 
-describe('@modernpoacher/zashiki/common/pre/definition/alpha', () => {
+describe('#zashiki/common/pre/definition/alpha', () => {
   describe('`alpha`', () => {
     it('is an object', () => {
       expect(alpha)

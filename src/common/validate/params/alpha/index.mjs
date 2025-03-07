@@ -5,9 +5,9 @@ import Joi from 'joi'
 
 import {
   NOT_FOUND
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
-import hasAlpha from '#common/definition/alpha/has-definition'
+import hasAlpha from '#zashiki/common/definition/alpha/has-definition'
 
 const log = debug('zashiki/common/validate/params/alpha')
 

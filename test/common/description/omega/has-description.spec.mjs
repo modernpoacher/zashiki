@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import hasDescription from '@modernpoacher/zashiki/common/description/omega/has-description'
+import hasDescription from '#zashiki/common/description/omega/has-description'
 
-describe('@modernpoacher/zashiki/common/description/omega/has-description', () => {
+describe('#zashiki/common/description/omega/has-description', () => {
   describe('`hasDescription`', () => {
     it('is a function', () => {
       expect(hasDescription)

@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import getComponents from '@modernpoacher/zashiki/common/components/embark/get-components'
+import getComponents from '#zashiki/common/components/embark/get-components'
 
-describe('@modernpoacher/zashiki/common/components/embark/get-components', () => {
+describe('#zashiki/common/components/embark/get-components', () => {
   describe('`getComponents`', () => {
     it('is a function', () => {
       expect(getComponents)

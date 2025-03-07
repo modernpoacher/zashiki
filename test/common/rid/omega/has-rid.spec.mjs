@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import hasRID from '@modernpoacher/zashiki/common/rid/omega/has-rid'
+import hasRID from '#zashiki/common/rid/omega/has-rid'
 
-describe('@modernpoacher/zashiki/common/rid/omega/has-rid', () => {
+describe('#zashiki/common/rid/omega/has-rid', () => {
   describe('`hasRID`', () => {
     it('is a function', () => {
       expect(hasRID)

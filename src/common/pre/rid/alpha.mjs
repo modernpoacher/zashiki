@@ -1,6 +1,6 @@
-import zashiki from '#config'
+import zashiki from '#zashiki/config'
 
-import getRID from '#common/rid/alpha/get-rid'
+import getRID from '#zashiki/common/rid/alpha/get-rid'
 
 const RID = zashiki.get('zashiki:rid')
 

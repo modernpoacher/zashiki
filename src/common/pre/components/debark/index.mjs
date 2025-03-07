@@ -1,4 +1,4 @@
-import getComponents from '#common/components/debark/get-components'
+import getComponents from '#zashiki/common/components/debark/get-components'
 
 /*
  *  `Promise`

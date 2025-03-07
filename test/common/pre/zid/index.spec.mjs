@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import zid from '@modernpoacher/zashiki/common/pre/zid'
+import zid from '#zashiki/common/pre/zid'
 
-describe('@modernpoacher/zashiki/common/pre/zid', () => {
+describe('#zashiki/common/pre/zid', () => {
   describe('`zid`', () => {
     it('is an object', () => {
       expect(zid)

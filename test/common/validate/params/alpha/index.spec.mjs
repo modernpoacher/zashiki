@@ -6,9 +6,9 @@ import validate, {
   hasDefinition,
   pattern,
   alpha
-} from '@modernpoacher/zashiki/common/validate/params/alpha'
+} from '#zashiki/common/validate/params/alpha'
 
-describe('@modernpoacher/zashiki/common/validate/params/alpha', () => {
+describe('#zashiki/common/validate/params/alpha', () => {
   describe('`validate`', () => {
     it('is an object', () => {
       expect(validate)

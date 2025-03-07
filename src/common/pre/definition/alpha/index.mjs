@@ -1,4 +1,4 @@
-import getDefinition from '#common/definition/alpha/get-definition'
+import getDefinition from '#zashiki/common/definition/alpha/get-definition'
 
 /*
  *  `Promise`

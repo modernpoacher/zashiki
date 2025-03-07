@@ -1,4 +1,4 @@
-import getComponents from '#common/components/embark/get-components'
+import getComponents from '#zashiki/common/components/embark/get-components'
 
 /*
  *  `Promise`

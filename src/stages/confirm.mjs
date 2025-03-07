@@ -13,11 +13,11 @@ import {
   change
 } from '@modernpoacher/zashiki-transport/stages'
 
-import zid from '#common/pre/zid'
-import rid from '#common/pre/rid'
+import zid from '#zashiki/common/pre/zid'
+import rid from '#zashiki/common/pre/rid'
 import {
   handleException
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 const log = debug('zashiki/stages/confirm')
 

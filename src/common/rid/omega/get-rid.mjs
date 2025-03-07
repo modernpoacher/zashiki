@@ -16,7 +16,7 @@ import {
 
 import {
   NOT_FOUND
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 const routeListMaster = new RouteListMaster()
 

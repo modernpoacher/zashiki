@@ -1,4 +1,4 @@
-import getComponents from '#common/components/alpha/get-components'
+import getComponents from '#zashiki/common/components/alpha/get-components'
 
 /*
  *  `Promise`

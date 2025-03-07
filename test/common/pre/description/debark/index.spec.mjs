@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import debark from '@modernpoacher/zashiki/common/pre/description/debark'
+import debark from '#zashiki/common/pre/description/debark'
 
-describe('@modernpoacher/zashiki/common/pre/description/debark', () => {
+describe('#zashiki/common/pre/description/debark', () => {
   describe('`debark`', () => {
     it('is an object', () => {
       expect(debark)

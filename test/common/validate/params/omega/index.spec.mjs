@@ -7,9 +7,9 @@ import validate, {
   pattern,
   alpha,
   omega
-} from '@modernpoacher/zashiki/common/validate/params/omega'
+} from '#zashiki/common/validate/params/omega'
 
-describe('@modernpoacher/zashiki/common/validate/params/omega', () => {
+describe('#zashiki/common/validate/params/omega', () => {
   describe('`validate`', () => {
     it('is an object', () => {
       expect(validate)

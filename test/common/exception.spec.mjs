@@ -7,9 +7,9 @@ import exception, {
   BAD_DATA,
   BAD_IMPLEMENTATION,
   handleException
-} from '@modernpoacher/zashiki/common/exception'
+} from '#zashiki/common/exception'
 
-describe('@modernpoacher/zashiki/common/exception', () => {
+describe('#zashiki/common/exception', () => {
   describe('`exception`', () => {
     it('is a function', () => {
       expect(exception)

@@ -1,4 +1,4 @@
-import getComponents from '#common/components/omega/get-components'
+import getComponents from '#zashiki/common/components/omega/get-components'
 
 /*
  *  `Promise`

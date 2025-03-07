@@ -1,4 +1,4 @@
-import getDefinition from '#common/definition/omega/get-definition'
+import getDefinition from '#zashiki/common/definition/omega/get-definition'
 
 /*
  *  `Promise`

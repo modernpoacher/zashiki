@@ -1,6 +1,6 @@
 import {
   handleException
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 import transformFromHashToDocument from 'shinkansen-transmission/transmission/from-hash-to-document'
 

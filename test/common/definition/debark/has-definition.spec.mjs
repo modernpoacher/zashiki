@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import hasDefinition from '@modernpoacher/zashiki/common/definition/debark/has-definition'
+import hasDefinition from '#zashiki/common/definition/debark/has-definition'
 
-describe('@modernpoacher/zashiki/common/definition/debark/has-definition', () => {
+describe('#zashiki/common/definition/debark/has-definition', () => {
   describe('`hasDefinition`', () => {
     it('is a function', () => {
       expect(hasDefinition)

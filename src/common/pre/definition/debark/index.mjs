@@ -1,4 +1,4 @@
-import getDefinition from '#common/definition/debark/get-definition'
+import getDefinition from '#zashiki/common/definition/debark/get-definition'
 
 /*
  *  `Promise`

@@ -12,7 +12,7 @@ import {
 
 import {
   BAD_DATA
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
 const log = debug('zashiki/common/description/alpha/get-description')
 

@@ -5,10 +5,10 @@ import Joi from 'joi'
 
 import {
   NOT_FOUND
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
-import hasAlpha from '#common/definition/alpha/has-definition'
-import hasOmega from '#common/definition/omega/has-definition'
+import hasAlpha from '#zashiki/common/definition/alpha/has-definition'
+import hasOmega from '#zashiki/common/definition/omega/has-definition'
 
 const log = debug('zashiki/common/validate/params/omega')
 

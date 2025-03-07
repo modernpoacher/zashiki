@@ -7,15 +7,15 @@ import {
   change
 } from '@modernpoacher/zashiki-transport/stages'
 
-import zid from '#common/pre/zid'
-import rid from '#common/pre/rid'
+import zid from '#zashiki/common/pre/zid'
+import rid from '#zashiki/common/pre/rid'
 import {
   handleException
-} from '#common/exception'
+} from '#zashiki/common/exception'
 
-import getRedirectResourceUrl from '#common/get-redirect-resource-url'
+import getRedirectResourceUrl from '#zashiki/common/get-redirect-resource-url'
 
-import params from '#common/validate/params/alpha'
+import params from '#zashiki/common/validate/params/alpha'
 
 const log = debug('zashiki/stages/alpha')
 

@@ -2,9 +2,9 @@ import {
   expect
 } from 'chai'
 
-import create from '@modernpoacher/zashiki/common/pre/rid/create'
+import create from '#zashiki/common/pre/rid/create'
 
-describe('@modernpoacher/zashiki/common/pre/rid/create', () => {
+describe('#zashiki/common/pre/rid/create', () => {
   describe('`create`', () => {
     it('is an object', () => {
       expect(create)
