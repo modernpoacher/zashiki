@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.3.8",
+    "@modernpoacher/zashiki-transport": "2.3.9",
     "debug": "^4.4.0",
     "dotenv": "^16.4.7",
     "eslint": "^9.22.0",
@@ -33,7 +33,7 @@
     "nconf": "^0.12.1",
     "shinkansen-rails": "1.1.8",
     "shinkansen-signals": "1.2.7",
-    "shinkansen-transmission": "2.5.6"
+    "shinkansen-transmission": "2.5.7"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.43",
