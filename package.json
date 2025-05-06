@@ -36,7 +36,7 @@
     "shinkansen-transmission": "2.5.30"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.54",
+    "@sequencemedia/eslint-config-standard": "^0.2.55",
     "@types/chai": "^5.2.2",
     "@types/mocha": "^10.0.10",
     "chai": "^5.2.0",
