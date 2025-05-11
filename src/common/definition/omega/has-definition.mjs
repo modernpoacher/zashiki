@@ -1,4 +1,4 @@
-import debug from 'debug'
+import debug from '#zashiki/config/debug'
 
 import getDefinition from './get-definition.mjs'
 
