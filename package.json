@@ -28,12 +28,12 @@
     "@modernpoacher/zashiki-transport": "2.3.49",
     "debug": "^4.4.1",
     "dotenv": "^16.5.0",
-    "eslint": "^9.28.0",
+    "eslint": "^9.29.0",
     "joi": "^17.13.3",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.47",
-    "shinkansen-signals": "1.2.46",
-    "shinkansen-transmission": "2.5.44"
+    "shinkansen-rails": "1.1.48",
+    "shinkansen-signals": "1.2.47",
+    "shinkansen-transmission": "2.5.45"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.64",
@@ -43,7 +43,7 @@
     "cross-env": "^7.0.3",
     "globals": "^16.2.0",
     "husky": "^9.1.7",
-    "mocha": "^11.5.0"
+    "mocha": "^11.6.0"
   },
   "imports": {
     "#zashiki": "./src/index.mjs",
