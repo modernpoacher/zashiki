@@ -1,6 +1,6 @@
 {
   "name": "@modernpoacher/zashiki",
-  "version": "1.5.89",
+  "version": "1.5.90",
   "description": "Zashiki",
   "main": "./src/index.mjs",
   "type": "module",
