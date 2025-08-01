@@ -31,12 +31,12 @@
     "eslint": "^9.32.0",
     "joi": "^17.13.3",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.79",
-    "shinkansen-signals": "1.2.78",
+    "shinkansen-rails": "1.1.80",
+    "shinkansen-signals": "1.2.79",
     "shinkansen-transmission": "2.5.51"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.73",
+    "@sequencemedia/eslint-config-standard": "^0.2.74",
     "@types/chai": "^5.2.2",
     "@types/mocha": "^10.0.10",
     "chai": "^5.2.1",
