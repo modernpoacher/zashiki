@@ -26,17 +26,17 @@
   "dependencies": {
     "@hapi/boom": "^10.0.1",
     "@modernpoacher/zashiki-transport": "2.3.98",
-    "debug": "^4.4.1",
+    "debug": "^4.4.3",
     "dotenv": "^17.2.2",
     "eslint": "^9.35.0",
     "joi": "^18.0.1",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.96",
-    "shinkansen-signals": "1.2.95",
-    "shinkansen-transmission": "2.5.62"
+    "shinkansen-rails": "1.1.97",
+    "shinkansen-signals": "1.2.96",
+    "shinkansen-transmission": "2.5.63"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.82",
+    "@sequencemedia/eslint-config-standard": "^0.2.83",
     "@types/chai": "^5.2.2",
     "@types/mocha": "^10.0.10",
     "chai": "^6.0.1",
