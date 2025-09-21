@@ -25,15 +25,15 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.3.99",
+    "@modernpoacher/zashiki-transport": "2.3.101",
     "debug": "^4.4.3",
     "dotenv": "^17.2.2",
-    "eslint": "^9.35.0",
+    "eslint": "^9.36.0",
     "joi": "^18.0.1",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.98",
-    "shinkansen-signals": "1.2.97",
-    "shinkansen-transmission": "2.5.64"
+    "shinkansen-rails": "1.1.100",
+    "shinkansen-signals": "1.2.99",
+    "shinkansen-transmission": "2.5.65"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "^0.2.85",
