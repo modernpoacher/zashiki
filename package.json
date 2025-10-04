@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
-    "@modernpoacher/zashiki-transport": "2.3.110",
+    "@modernpoacher/zashiki-transport": "2.3.111",
     "debug": "^4.4.3",
     "dotenv": "^17.2.3",
     "eslint": "^9.37.0",
