@@ -28,14 +28,14 @@
     "@modernpoacher/zashiki-transport": "2.3.132",
     "debug": "^4.4.3",
     "dotenv": "^17.2.3",
-    "joi": "^18.0.1",
+    "joi": "^18.0.2",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.129",
-    "shinkansen-signals": "1.2.128",
+    "shinkansen-rails": "1.1.130",
+    "shinkansen-signals": "1.2.129",
     "shinkansen-transmission": "2.5.95"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.105",
+    "@sequencemedia/eslint-config-standard": "^0.2.107",
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
     "chai": "^6.2.1",
