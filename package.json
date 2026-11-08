@@ -27,23 +27,23 @@
     "@hapi/boom": "^10.0.1",
     "@modernpoacher/zashiki-transport": "2.3.134",
     "debug": "^4.4.3",
-    "dotenv": "^17.4.2",
-    "joi": "^18.2.8",
+    "dotenv": "^18.0.9",
+    "joi": "^18.3.2",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.174",
-    "shinkansen-signals": "1.2.169",
-    "shinkansen-transmission": "2.5.142"
+    "shinkansen-rails": "1.1.186",
+    "shinkansen-signals": "1.2.181",
+    "shinkansen-transmission": "2.5.155"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "^0.2.125",
+    "@sequencemedia/eslint-config-standard": "0.2.132",
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
-    "chai": "^6.2.2",
+    "chai": "^6.3.0",
     "cross-env": "^10.1.0",
     "eslint": "9.38.0",
-    "globals": "^17.12.0",
+    "globals": "^17.14.0",
     "husky": "^9.1.7",
-    "mocha": "^12.0.0"
+    "mocha": "^12.0.3"
   },
   "imports": {
     "#zashiki": "./src/index.mjs",
