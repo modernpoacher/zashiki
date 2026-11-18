@@ -30,9 +30,9 @@
     "dotenv": "^18.0.10",
     "joi": "^18.3.2",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.192",
-    "shinkansen-signals": "1.2.187",
-    "shinkansen-transmission": "2.5.161"
+    "shinkansen-rails": "1.1.193",
+    "shinkansen-signals": "1.2.188",
+    "shinkansen-transmission": "2.5.162"
   },
   "devDependencies": {
     "@sequencemedia/eslint-config-standard": "0.4.3",
