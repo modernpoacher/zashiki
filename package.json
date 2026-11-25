@@ -30,12 +30,12 @@
     "dotenv": "^18.0.10",
     "joi": "^18.3.2",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.194",
-    "shinkansen-signals": "1.2.189",
-    "shinkansen-transmission": "2.5.163"
+    "shinkansen-rails": "1.1.195",
+    "shinkansen-signals": "1.2.190",
+    "shinkansen-transmission": "2.5.164"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "0.4.4",
+    "@sequencemedia/eslint-config-standard": "0.4.5",
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
     "chai": "^6.3.0",
