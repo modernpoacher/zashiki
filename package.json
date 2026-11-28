@@ -30,17 +30,17 @@
     "dotenv": "^18.0.10",
     "joi": "^18.3.2",
     "nconf": "^0.13.0",
-    "shinkansen-rails": "1.1.197",
-    "shinkansen-signals": "1.2.192",
-    "shinkansen-transmission": "2.5.166"
+    "shinkansen-rails": "1.1.198",
+    "shinkansen-signals": "1.2.193",
+    "shinkansen-transmission": "2.5.167"
   },
   "devDependencies": {
-    "@sequencemedia/eslint-config-standard": "0.4.7",
+    "@sequencemedia/eslint-config-standard": "0.4.8",
     "@types/chai": "^5.2.3",
     "@types/mocha": "^10.0.10",
     "chai": "^6.3.0",
     "cross-env": "^10.1.0",
-    "eslint": "10.15.0",
+    "eslint": "10.16.0",
     "globals": "^17.14.0",
     "husky": "^9.1.7",
     "mocha": "^12.0.3"
